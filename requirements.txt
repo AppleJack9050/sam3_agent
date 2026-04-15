@@ -1,0 +1,41 @@
+# NVIDIA RTX 5090 (Blackwell, sm_120) needs CUDA 12.8+ and torch>=2.7.
+# Install with:
+#   pip install --extra-index-url https://download.pytorch.org/whl/cu128 \
+#       "torch>=2.7" torchvision
+torch>=2.7
+torchvision
+# sam3 pins numpy<2; opencv-python >= 4.11 requires numpy>=2. Pin both
+# to the last versions that coexist.
+numpy<2
+opencv-python==4.10.0.84
+Pillow
+fastapi
+uvicorn[standard]
+pydantic>=2
+anthropic
+python-multipart
+langgraph>=0.2
+langchain>=0.3
+langchain-anthropic>=0.2
+langchain-core>=0.3
+# SAM 3 runtime deps not declared in the sam3 package
+einops
+hydra-core
+pycocotools
+psutil
+av
+decord
+timm
+ftfy
+regex
+matplotlib
+scipy
+# SAM 3 (install from source per facebookresearch/sam3 README)
+# pip install git+https://github.com/facebookresearch/sam3.git
+# Dev
+pytest
+httpx
+# SAM 3 (install from source per facebookresearch/sam3 README)
+# sam3 @ git+https://github.com/facebookresearch/sam3.git
+# Optional: ultralytics integration
+# ultralytics
