@@ -12,12 +12,12 @@ Pillow
 fastapi
 uvicorn[standard]
 pydantic>=2
-anthropic
 python-multipart
-langgraph>=0.2
-langchain>=0.3
-langchain-anthropic>=0.2
-langchain-core>=0.3
+# Orchestration LLM: Claude Agent SDK (replaces langgraph + langchain).
+# Requires the Claude Code CLI on PATH (`npm i -g @anthropic-ai/claude-code`)
+# and a logged-in subscription (`claude login` or `claude setup-token`).
+# Keep ANTHROPIC_API_KEY UNSET so billing uses your Claude plan, not the API.
+claude-agent-sdk>=0.2
 # SAM 3 runtime deps not declared in the sam3 package
 einops
 hydra-core

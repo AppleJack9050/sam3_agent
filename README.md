@@ -1,8 +1,10 @@
-# SAM 3 Segmentation Agent (LangGraph)
+# SAM 3 Segmentation Agent (Claude Agent SDK)
 
 An AI-agent wrapper around **SAM 3** for glacier-terminus imagery.
-Orchestration is a **LangGraph** state machine; LLM-assisted prompt refinement
-uses **LangChain**'s `ChatAnthropic` with structured output.
+Orchestration is a deterministic Python pipeline; LLM-assisted prompt
+refinement uses the **Claude Agent SDK** (`claude-agent-sdk`) with JSON-schema
+structured output, authenticated against your **Claude subscription** (not a
+metered API key).
 
 ## Strategy: segment by exclusion
 
@@ -40,19 +42,21 @@ aerial shots of a glacier terminus / ice cliff.
 
 | Module | Role |
 |---|---|
-| `graph.py` | **LangGraph** `StateGraph` — multi-prompt fan-out, invert, postprocess, retry |
+| `pipeline.py` | deterministic retry loop — multi-prompt fan-out, invert, postprocess, retry |
+| `llm.py` | **Claude Agent SDK** prompt adaptation — structured output, subscription auth |
 | `input_module.py` | load, color-space normalize, resolution normalize, tile + stitch |
 | `sam3_inference.py` | SAM 3 wrapper (`facebookresearch/sam3` image model) + prompt-dispatching mock |
 | `quality.py` | keep-coverage gate + top-edge-hits-frame-top + sky-color leakage |
-| `agent.py` | thin facade: compiles the graph and invokes it |
+| `agent.py` | thin facade: runs the pipeline |
 | `output.py` | PNG or JPEG with pure black outside the mask + raw mask PNG |
 | `api.py` | FastAPI service: `/segment`, `/segment/batch` |
 | `cli.py` | CLI entrypoint |
 
-The `adapt_prompts` node calls `ChatAnthropic(...).with_structured_output(PromptSetDecision)`
-so the LLM returns a typed Pydantic decision (`prompts`, `reasoning`); if
-LangChain / the API key is unavailable it cycles through
-`AgentConfig.exclude_prompt_fallbacks`.
+The adapt step (`llm.decide_next_prompts`) calls the Claude Agent SDK's
+`query()` with a JSON-schema `output_format`, so Claude returns a typed
+decision (`prompts`, `reasoning`) billed to your subscription. If the SDK, the
+`claude` CLI, or the login is unavailable — or `use_llm` is off — it falls back
+to cycling through `AgentConfig.exclude_prompt_fallbacks`.
 
 ## Install
 
@@ -68,10 +72,25 @@ conda activate sam3-agent
 pip install --extra-index-url https://download.pytorch.org/whl/cu128 \
     "torch>=2.7" torchvision
 
-# 3. Install the agent's dependencies and SAM 3.
+# 3. Install the agent's dependencies (incl. claude-agent-sdk) and SAM 3.
 pip install -r requirements.txt
 pip install git+https://github.com/facebookresearch/sam3.git
+
+# 4. Install the Claude Code CLI — the Claude Agent SDK shells out to it — and
+#    log in with your Claude subscription. The OAuth login is what bills your
+#    plan instead of the metered API.
+npm install -g @anthropic-ai/claude-code   # provides the `claude` binary on PATH
+claude login                                # interactive; or `claude setup-token` for headless/CI
+
+# IMPORTANT: keep ANTHROPIC_API_KEY UNSET, or the SDK/CLI will bill the metered
+# API instead of your subscription. For headless use, export the token from
+# `claude setup-token` as CLAUDE_CODE_OAUTH_TOKEN.
+unset ANTHROPIC_API_KEY
 ```
+
+> Only the LLM-assisted `--use-llm` path needs the Claude Code CLI and login.
+> The default deterministic pipeline (and all tests, which use the mock SAM 3
+> predictor) runs without it.
 
 Verify the CUDA backend is live on the 5090:
 
@@ -161,8 +180,9 @@ network needed.
 2. Build prompt (default: target noun phrase, e.g. `"glacier"`).
 3. SAM 3 inference per tile; union masks; stitch to full resolution.
 4. Quality check: coverage ∈ [min, max], no "ship-like" false-positive cluster.
-5. On failure: either deterministic fallback cycling or Claude picks the next
-   prompt / flips the exemplar flag, then retries (up to `max_retries`).
+5. On failure: Claude (via the Agent SDK, on your subscription) proposes the
+   next prompt set, or deterministic fallback cycling when `use_llm` is off or
+   the SDK is unavailable; then retry (up to `max_retries`).
 6. Blackout pixels outside mask and save PNG (alpha) or JPEG (+ raw mask PNG).
 
 ## Tiling for large remote-sensing imagery

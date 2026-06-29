@@ -115,9 +115,17 @@ class AgentConfig:
     output_format: str = "png"  # png | jpeg
     save_raw_mask: bool = True
 
-    # --- LLM-assisted orchestration ------------------------------------
+    # --- LLM-assisted orchestration (Claude Agent SDK) -----------------
+    # When use_llm is True, the adapt step asks Claude (via the Claude Agent
+    # SDK) for the next prompt set. Auth uses your Claude *subscription* (the
+    # SDK shells out to the logged-in `claude` CLI); keep ANTHROPIC_API_KEY
+    # unset so billing goes to your plan, not the metered API. Any SDK / CLI /
+    # auth failure falls back to deterministic prompt cycling.
     use_llm: bool = False
-    llm_model: str = "claude-opus-4-6"
+    # Model id or alias ("opus" / "sonnet" / "haiku") passed to the SDK.
+    llm_model: str = "claude-opus-4-8"
+    # Optional per-call cost ceiling (USD) for the Agent SDK; None = no cap.
+    llm_max_budget_usd: Optional[float] = None
 
     def __post_init__(self):
         # Backwards compatibility: AgentConfig(target="glacier") → include mode

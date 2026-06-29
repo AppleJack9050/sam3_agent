@@ -1,4 +1,4 @@
-"""SAM3Agent: thin facade over the LangGraph pipeline in `graph.py`."""
+"""SAM3Agent: thin facade over the deterministic pipeline in `pipeline.py`."""
 from __future__ import annotations
 
 from dataclasses import dataclass, field
@@ -6,7 +6,7 @@ from pathlib import Path
 from typing import List, Optional, Tuple
 
 from .config import AgentConfig
-from .graph import build_graph
+from .pipeline import run_pipeline
 from .quality import QualityReport
 from .sam3_inference import SAM3Predictor
 
@@ -30,14 +30,11 @@ class SAM3Agent:
     ):
         self.cfg = config or AgentConfig()
         self.predictor = predictor or SAM3Predictor(self.cfg.model_name, self.cfg.device)
-        self.graph = build_graph(self.predictor)
 
     def run(self, image_path: str | Path, out_path: str | Path) -> AgentResult:
-        final = self.graph.invoke({
-            "image_path": str(image_path),
-            "output_path": str(out_path),
-            "cfg": self.cfg,
-        })
+        final = run_pipeline(
+            self.predictor, str(image_path), str(out_path), self.cfg,
+        )
         quality: QualityReport = final["quality"]
         return AgentResult(
             output_paths=final["output_paths"],
