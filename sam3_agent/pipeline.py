@@ -53,8 +53,8 @@ def run_pipeline(
     ``quality`` (:class:`QualityReport`), ``attempt``, ``prompts``, ``history``.
     """
     # --- preprocess ---
-    img = load_image(image_path, color_space=cfg.color_space)
-    img, _ = normalize_resolution(img, cfg.target_long_side)
+    img_full = load_image(image_path, color_space=cfg.color_space)
+    img, scale = normalize_resolution(img_full, cfg.target_long_side)
 
     # --- initial prompt set ---
     prompts = _initial_prompts(cfg)
@@ -95,8 +95,23 @@ def run_pipeline(
         prompts = decision.prompts
 
     # --- save ---
+    # Apply the keep mask to the ORIGINAL full-resolution image when requested,
+    # upscaling the mask with a hard (thresholded) edge. This avoids softening the
+    # kept pixels and the resampling halo a downscaled masked image would carry —
+    # both of which inject multi-view-inconsistent artifacts into downstream 3DGS.
+    if cfg.output_full_resolution and scale != 1.0:
+        H, W = img_full.shape[:2]
+        keep_out = (
+            cv2.resize(keep_mask.astype(np.float32), (W, H), interpolation=cv2.INTER_LINEAR)
+            > 0.5
+        )
+        img_out = img_full
+    else:
+        keep_out, img_out = keep_mask, img
+    # Dilate at output resolution (superset of the true foreground -> better 3DGS).
+    keep_out = _dilate_mask(keep_out, cfg.dilate_px)
     paths = save_result(
-        img, keep_mask, output_path,
+        img_out, keep_out, output_path,
         fmt=cfg.output_format, save_raw_mask=cfg.save_raw_mask,
     )
 
@@ -127,12 +142,27 @@ def _segment(
     prompts: List[str],
     cfg: AgentConfig,
 ) -> Tuple[np.ndarray, np.ndarray]:
-    """Run SAM 3 over every prompt, union, then build keep/exclude masks."""
-    raw = np.zeros(img.shape[:2], dtype=bool)
-    for prompt in prompts:
-        raw |= _infer_one(predictor, img, prompt, cfg)
-
-    if cfg.mode == "exclude":
+    """Run SAM 3 over every prompt, select instances, then build keep/exclude masks."""
+    if cfg.mode == "include":
+        # include_top_k>0: keep only the k highest-confidence detections pooled
+        # across prompts (tighter, more multi-view-consistent — avoids grabbing
+        # adjacent objects). Falls back to union when tiling or top_k==0.
+        if cfg.include_top_k and cfg.include_top_k > 0 and not should_tile(img, cfg.tile_threshold):
+            dets: List[Detection] = []
+            for prompt in prompts:
+                dets.extend(predictor.predict(img, prompt, None, cfg.score_threshold))
+            dets.sort(key=lambda d: d.score, reverse=True)
+            raw = _union(dets[: cfg.include_top_k], img.shape[:2])
+        else:
+            raw = np.zeros(img.shape[:2], dtype=bool)
+            for prompt in prompts:
+                raw |= _infer_one(predictor, img, prompt, cfg)
+        keep = raw
+        exclude = np.zeros_like(raw)
+    else:
+        raw = np.zeros(img.shape[:2], dtype=bool)
+        for prompt in prompts:
+            raw |= _infer_one(predictor, img, prompt, cfg)
         # Augment SAM 3's output with deterministic color priors so the sky and
         # yellow placards are excluded even when SAM 3 misses them.
         if cfg.color_prior_sky:
@@ -141,9 +171,6 @@ def _segment(
             raw |= _color_prior_yellow(img)
         keep = ~raw
         exclude = raw
-    else:
-        keep = raw
-        exclude = np.zeros_like(raw)
 
     keep = _postprocess_keep(keep, cfg)
     return keep, exclude
@@ -252,3 +279,20 @@ def _postprocess_keep(mask: np.ndarray, cfg: AgentConfig) -> np.ndarray:
             largest = 1 + int(np.argmax(stats[1:, cv2.CC_STAT_AREA]))
             m = labels == largest
     return m
+
+
+def _dilate_mask(mask: np.ndarray, dilate_px: int) -> np.ndarray:
+    """Grow a boolean keep mask outward by `dilate_px` (ellipse kernel).
+
+    Applied at OUTPUT resolution (after any upscale to full-res), so `dilate_px`
+    is in final-image pixels. Making the kept region a slight superset of the true
+    foreground is the single most effective lever for downstream 3DGS fidelity: every
+    shared-foreground 3D point stays kept in all views instead of being blacked-out
+    (and averaged toward black) in some, and the downsample-induced black/FG blend
+    boundary sits outside the object interior.
+    """
+    if not dilate_px or dilate_px <= 0:
+        return mask
+    d = int(dilate_px)
+    dk = cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (2 * d + 1, 2 * d + 1))
+    return cv2.dilate(mask.astype(np.uint8), dk, iterations=1).astype(bool)

@@ -1,0 +1,26 @@
+2026-05-24 13:04:47,738 [INFO] torch._native.dsl_registry: Successfully registered DSL: cutedsl
+2026-05-24 13:04:47,739 [INFO] torch._native.dsl_registry: Successfully registered DSL: triton
+2026-05-24 13:04:48,029 [INFO] root: GPU: NVIDIA GeForce RTX 5090  sm_120
+2026-05-24 13:04:48,104 [INFO] gsplat_eval.colmap_io: Running COLMAP on /mnt/windows/Dataset/2016-11-28_Howchin-AlphLake_Imagery-Files.beh/native_prompt/images
+2026-05-24 13:04:48,176 [INFO] gsplat_eval.colmap_io: $ colmap feature_extractor --database_path /mnt/windows/Dataset/2016-11-28_Howchin-AlphLake_Imagery-Files.beh/native_prompt/colmap.db --image_path /mnt/windows/Dataset/2016-11-28_Howchin-AlphLake_Imagery-Files.beh/native_prompt/images --ImageReader.single_camera 1 --FeatureExtraction.use_gpu 1
+2026-05-24 13:05:26,775 [INFO] gsplat_eval.colmap_io: $ colmap exhaustive_matcher --database_path /mnt/windows/Dataset/2016-11-28_Howchin-AlphLake_Imagery-Files.beh/native_prompt/colmap.db --FeatureMatching.use_gpu 1
+2026-05-24 13:10:31,664 [INFO] gsplat_eval.colmap_io: $ colmap mapper --database_path /mnt/windows/Dataset/2016-11-28_Howchin-AlphLake_Imagery-Files.beh/native_prompt/colmap.db --image_path /mnt/windows/Dataset/2016-11-28_Howchin-AlphLake_Imagery-Files.beh/native_prompt/images --output_path /mnt/windows/Dataset/2016-11-28_Howchin-AlphLake_Imagery-Files.beh/native_prompt/sparse
+2026-05-24 14:06:21,481 [INFO] gsplat_eval.dataset: Downsampling by 8x: images and intrinsics rescaled.
+2026-05-24 14:06:21,744 [INFO] gsplat_eval.dataset: Loaded scene: 583 images (train=510, test=73), 525243 sparse points
+2026-05-24 14:06:29,376 [INFO] gsplat_eval.trainer: Scene scale = 7.664, init Gaussians = 525243
+2026-05-24 14:20:37,832 [INFO] gsplat_eval.io_utils: Wrote 4712353 Gaussians → /mnt/windows/Dataset/2016-11-28_Howchin-AlphLake_Imagery-Files.beh/native_prompt/runs/my_experiment/checkpoints/point_cloud_7000.ply
+2026-05-24 15:03:45,021 [INFO] gsplat_eval.io_utils: Wrote 7592560 Gaussians → /mnt/windows/Dataset/2016-11-28_Howchin-AlphLake_Imagery-Files.beh/native_prompt/runs/my_experiment/checkpoints/point_cloud_30000.ply
+2026-05-24 15:03:45,079 [INFO] gsplat_eval.trainer: Training complete in 3435.2s (7592560 Gaussians)
+2026-05-24 15:03:58,706 [INFO] gsplat_eval.render: Wrote 73 rendered test views → /mnt/windows/Dataset/2016-11-28_Howchin-AlphLake_Imagery-Files.beh/native_prompt/runs/my_experiment/renders/test
+2026-05-24 15:04:05,107 [INFO] root: ============================================================
+2026-05-24 15:04:05,107 [INFO] root: Final metrics:
+2026-05-24 15:04:05,107 [INFO] root:   psnr                 21.657291412353516
+2026-05-24 15:04:05,107 [INFO] root:   ssim                 0.6837631464004517
+2026-05-24 15:04:05,107 [INFO] root:   lpips                0.33854591846466064
+2026-05-24 15:04:05,107 [INFO] root:   rmse                 0.07943021145896764
+2026-05-24 15:04:05,107 [INFO] root:   num_test_images      73
+2026-05-24 15:04:05,107 [INFO] root:   num_gaussians        7592560
+2026-05-24 15:04:05,107 [INFO] root:   ply_size_mb          1795.7271690368652
+2026-05-24 15:04:05,107 [INFO] root:   train_seconds        3435.16237282753
+2026-05-24 15:04:05,107 [INFO] root:   iters                30000
+2026-05-24 15:04:05,107 [INFO] root: ============================================================

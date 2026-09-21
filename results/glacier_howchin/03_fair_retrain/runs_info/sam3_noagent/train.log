@@ -1,0 +1,22 @@
+2026-09-13 18:30:15,951 [INFO] torch._native.dsl_registry: Successfully registered DSL: cutedsl
+2026-09-13 18:30:15,951 [INFO] torch._native.dsl_registry: Successfully registered DSL: triton
+2026-09-13 18:30:16,162 [INFO] root: GPU: NVIDIA GeForce RTX 5090  sm_120
+2026-09-13 18:30:20,215 [INFO] gsplat_eval.dataset: Downsampling by 4x: images and intrinsics rescaled.
+2026-09-13 18:30:20,512 [INFO] gsplat_eval.dataset: Loaded scene: 583 images (train=510, test=73), 525964 sparse points
+2026-09-13 18:30:29,026 [INFO] gsplat_eval.trainer: Scene scale = 7.587, init Gaussians = 525964
+2026-09-13 18:34:31,778 [INFO] gsplat_eval.io_utils: Wrote 5230795 Gaussians → /mnt/windows/Dataset/2016-11-28_Howchin-AlphLake_Imagery-Files.beh/retrain_fair/runs/sam3_noagent/checkpoints/point_cloud_7000.ply
+2026-09-13 18:57:41,333 [INFO] gsplat_eval.io_utils: Wrote 10909480 Gaussians → /mnt/windows/Dataset/2016-11-28_Howchin-AlphLake_Imagery-Files.beh/retrain_fair/runs/sam3_noagent/checkpoints/point_cloud_30000.ply
+2026-09-13 18:57:41,431 [INFO] gsplat_eval.trainer: Training complete in 1631.9s (10909480 Gaussians)
+2026-09-13 18:57:59,037 [INFO] gsplat_eval.render: Wrote 73 rendered test views → /mnt/windows/Dataset/2016-11-28_Howchin-AlphLake_Imagery-Files.beh/retrain_fair/runs/sam3_noagent/renders/test
+2026-09-13 18:58:02,840 [INFO] root: ============================================================
+2026-09-13 18:58:02,840 [INFO] root: Final metrics:
+2026-09-13 18:58:02,840 [INFO] root:   psnr                 23.414676666259766
+2026-09-13 18:58:02,840 [INFO] root:   ssim                 0.7728090286254883
+2026-09-13 18:58:02,840 [INFO] root:   lpips                0.2628932297229767
+2026-09-13 18:58:02,840 [INFO] root:   rmse                 0.06299514414844565
+2026-09-13 18:58:02,840 [INFO] root:   num_test_images      73
+2026-09-13 18:58:02,840 [INFO] root:   num_gaussians        10909480
+2026-09-13 18:58:02,840 [INFO] root:   ply_size_mb          2580.216000556946
+2026-09-13 18:58:02,840 [INFO] root:   train_seconds        1631.9030334949493
+2026-09-13 18:58:02,840 [INFO] root:   iters                30000
+2026-09-13 18:58:02,840 [INFO] root: ============================================================

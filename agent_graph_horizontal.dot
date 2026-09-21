@@ -1,0 +1,72 @@
+digraph G {
+  graph [rankdir=LR, newrank=true, compound=true, bgcolor=white, pad="0.15",
+         nodesep=0.20, ranksep=0.10, splines=spline, fontname="TeX Gyre Termes", fontsize=11,
+         labelloc=b, labeljust=r, label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="6" CELLPADDING="0"><TR><TD><TABLE STYLE="rounded" BORDER="1" CELLBORDER="0" CELLPADDING="2" BGCOLOR="white"><TR><TD><FONT POINT-SIZE="9.5">Deterministic step</FONT></TD></TR></TABLE></TD><TD><TABLE STYLE="rounded" BORDER="1" CELLBORDER="0" CELLPADDING="2" BGCOLOR="#e6e6e6"><TR><TD><FONT POINT-SIZE="9.5">SAM 3 inference</FONT></TD></TR></TABLE></TD><TD><TABLE STYLE="rounded" BORDER="2" CELLBORDER="0" CELLPADDING="2" BGCOLOR="#c4c4c4"><TR><TD><FONT POINT-SIZE="9.5">LLM call</FONT></TD></TR></TABLE></TD><TD><FONT POINT-SIZE="9.5"><FONT FACE="DejaVu Sans">◇</FONT> branch point</FONT></TD><TD><FONT POINT-SIZE="9.5"><FONT FACE="DejaVu Sans">●</FONT> merge</FONT></TD><TD><FONT POINT-SIZE="9.5">solid edge: always taken</FONT></TD><TD><FONT POINT-SIZE="9.5">dashed edge: taken when its <I>italic</I> guard holds</FONT></TD></TR></TABLE>>];
+  node  [fontname="TeX Gyre Termes", fontsize=11, penwidth=0.8, color="#111111", margin="0.08,0.03", height=0.3];
+  edge  [fontname="TeX Gyre Termes", fontsize=9.5, penwidth=0.75, color="#111111", arrowsize=0.55, arrowhead=vee];
+
+  subgraph cluster_pre {
+    label=<<B>Preprocessing</B>  <FONT FACE="Nimbus Mono PS" POINT-SIZE="9" COLOR="#555555">run_pipeline</FONT>>; labeljust=l; labelloc=t; style="rounded"; color="#8a8a8a"; penwidth=0.6;
+    "preprocess" [shape=box, style="rounded", fillcolor=white, label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1"><TR><TD>Preprocess</TD></TR><TR><TD><FONT POINT-SIZE="9" COLOR="#3a3a3a">RGB; long side<BR/>≤ 2048 px</FONT></TD></TR></TABLE>>];
+    "build_prompts" [shape=box, style="rounded", fillcolor=white, label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1"><TR><TD>Initial prompts<BR/><I>P</I><SUB>1</SUB></TD></TR><TR><TD><FONT POINT-SIZE="9" COLOR="#3a3a3a">6 exclude or<BR/>5 include</FONT></TD></TR></TABLE>>];
+  }
+  subgraph cluster_loop {
+    label=<<B>Iterative refinement loop</B>, <I>t</I> = 1, …, <I>T</I>  <FONT POINT-SIZE="9" COLOR="#555555">(<I>T</I> = <FONT FACE="Nimbus Mono PS" POINT-SIZE="8.5">max_retries</FONT> = 3)</FONT>>;
+    labeljust=l; labelloc=t; style="rounded,dashed"; color="#6a6a6a"; penwidth=0.7;
+    subgraph cluster_seg {
+      label=<<B>Segmentation</B>  <FONT FACE="Nimbus Mono PS" POINT-SIZE="9" COLOR="#555555">sam3_segment</FONT>>; labeljust=l; labelloc=t; style="rounded,filled"; fillcolor="#f7f7f7"; color="#9a9a9a"; penwidth=0.6;
+      "sam3_segment:select_branch" [shape=diamond, style="filled", fillcolor=white, width=0.34, height=0.34, fixedsize=true, label=""];
+      "sam3_segment:infer_per_prompt" [shape=box, style="rounded", fillcolor=white, label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1"><TR><TD>Per-prompt query</TD></TR><TR><TD><FONT POINT-SIZE="9" COLOR="#3a3a3a">for each <I>p</I> <FONT FACE="TeX Gyre Termes Math">∈</FONT> <I>P<SUB>t</SUB></I></FONT></TD></TR></TABLE>>];
+      "sam3_segment:predict_tiles_stitch" [shape=box, style="rounded,filled", fillcolor="#e6e6e6", label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1"><TR><TD>SAM 3<BR/>on tiles</TD></TR><TR><TD><FONT POINT-SIZE="9" COLOR="#3a3a3a">OR-stitch masks</FONT></TD></TR></TABLE>>];
+      "sam3_segment:predict_whole_image" [shape=box, style="rounded,filled", fillcolor="#e6e6e6", label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1"><TR><TD>SAM 3<BR/>on full image</TD></TR></TABLE>>];
+      "sam3_segment:predict_pooled_top_k" [shape=box, style="rounded,filled", fillcolor="#e6e6e6", label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1"><TR><TD>SAM 3,<BR/>pooled top-<I>k</I></TD></TR><TR><TD><FONT POINT-SIZE="9" COLOR="#3a3a3a">by detection score</FONT></TD></TR></TABLE>>];
+      "sam3_segment:union_masks" [shape=box, style="rounded", fillcolor=white, label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1"><TR><TD>Mask union</TD></TR><TR><TD><FONT POINT-SIZE="9" COLOR="#3a3a3a"><I>M</I> = <FONT FACE="TeX Gyre Termes Math">∪</FONT><SUB><I>p</I></SUB> <I>M<SUB>p</SUB></I></FONT></TD></TR></TABLE>>];
+      "sam3_segment:color_priors" [shape=box, style="rounded", fillcolor=white, label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1"><TR><TD>HSV colour<BR/>priors</TD></TR><TR><TD><FONT POINT-SIZE="9" COLOR="#3a3a3a">sky, yellow<BR/>(optional)</FONT></TD></TR></TABLE>>];
+      "sam3_segment:invert_to_keep" [shape=box, style="rounded", fillcolor=white, label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1"><TR><TD>Invert</TD></TR><TR><TD><FONT POINT-SIZE="9" COLOR="#3a3a3a"><I>K</I> = ¬<I>M</I></FONT></TD></TR></TABLE>>];
+      "sam3_segment:postprocess_keep" [shape=box, style="rounded", fillcolor=white, label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1"><TR><TD>Post-process</TD></TR><TR><TD><FONT POINT-SIZE="9" COLOR="#3a3a3a">closing,<BR/>largest component</FONT></TD></TR></TABLE>>];
+    }
+    "quality_gate" [shape=box, style="rounded", fillcolor=white, label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1"><TR><TD>Quality gate</TD></TR><TR><TD><FONT POINT-SIZE="9" COLOR="#3a3a3a">coverage,<BR/>sky checks</FONT></TD></TR></TABLE>>];
+    subgraph cluster_adapt {
+      label=<<B>Prompt adaptation</B>  <FONT FACE="Nimbus Mono PS" POINT-SIZE="9" COLOR="#555555">adapt_prompts</FONT>>; labeljust=l; labelloc=t; style="rounded,filled"; fillcolor="#f7f7f7"; color="#9a9a9a"; penwidth=0.6;
+      "adapt_prompts:pick_fallback_sets" [shape=box, style="rounded", fillcolor=white, label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1"><TR><TD>Fallback<BR/>sets <I>F</I></TD></TR><TR><TD><FONT POINT-SIZE="9" COLOR="#3a3a3a">by mode</FONT></TD></TR></TABLE>>];
+      "adapt_prompts:claude_agent_sdk_query" [shape=box, style="rounded,filled,bold", fillcolor="#c4c4c4", label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1"><TR><TD>LLM prompt<BR/>revision</TD></TR><TR><TD><FONT POINT-SIZE="9" COLOR="#3a3a3a">Claude Agent SDK,<BR/>one turn</FONT></TD></TR></TABLE>>];
+      "adapt_prompts:cycle_fallback_set" [shape=box, style="rounded", fillcolor=white, label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1"><TR><TD>Deterministic<BR/>fallback</TD></TR><TR><TD><FONT POINT-SIZE="9" COLOR="#3a3a3a"><I>F</I>[min(<I>t</I><FONT FACE="TeX Gyre Termes Math">−</FONT>1, |<I>F</I>|<FONT FACE="TeX Gyre Termes Math">−</FONT>1)]</FONT></TD></TR></TABLE>>];
+      "adapt_prompts:__end__" [shape=point, width=0.07, fillcolor=black, label=""];
+    }
+  }
+  subgraph cluster_out {
+    label=<<B>Output</B>  <FONT FACE="Nimbus Mono PS" POINT-SIZE="9" COLOR="#555555">run_pipeline</FONT>>; labeljust=l; labelloc=t; style="rounded"; color="#8a8a8a"; penwidth=0.6;
+    "restore_full_res" [shape=box, style="rounded", fillcolor=white, label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1"><TR><TD>Restore<BR/>resolution</TD></TR><TR><TD><FONT POINT-SIZE="9" COLOR="#3a3a3a">upsample <I>K</I><BR/>to size of <I>I</I></FONT></TD></TR></TABLE>>];
+    "dilate_mask" [shape=box, style="rounded", fillcolor=white, label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1"><TR><TD>Dilate</TD></TR><TR><TD><FONT POINT-SIZE="9" COLOR="#3a3a3a">radius<BR/><FONT FACE="Nimbus Mono PS" POINT-SIZE="8.5">dilate_px</FONT></FONT></TD></TR></TABLE>>];
+    "save_result" [shape=box, style="rounded", fillcolor=white, label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1"><TR><TD>Save</TD></TR><TR><TD><FONT POINT-SIZE="9" COLOR="#3a3a3a">black out ¬<I>K</I></FONT></TD></TR></TABLE>>];
+  }
+    "__start__" [shape=parallelogram, style="filled", fillcolor=white, label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1"><TR><TD>Input<BR/>image <I>I</I></TD></TR></TABLE>>];
+    "__end__" [shape=parallelogram, style="filled", fillcolor=white, label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1"><TR><TD>Masked image<BR/>and mask <I>K</I></TD></TR></TABLE>>];
+
+  "__start__" -> "preprocess" ;
+  "preprocess" -> "build_prompts" ;
+  "build_prompts" -> "sam3_segment:select_branch" ;
+  "sam3_segment:select_branch" -> "sam3_segment:predict_pooled_top_k" [style=dashed, label=<<I>include <FONT FACE="TeX Gyre Termes Math">∧</FONT> <I>k</I> &gt; 0<BR/><FONT FACE="TeX Gyre Termes Math">∧</FONT> ¬tiled</I>>];
+  "sam3_segment:select_branch" -> "sam3_segment:infer_per_prompt" [style=dashed, label=<<I>otherwise</I>>];
+  "sam3_segment:infer_per_prompt" -> "sam3_segment:predict_tiles_stitch" [style=dashed, label=<<I>max(<I>H</I>, <I>W</I>) &gt; τ<SUB>tile</SUB></I>>];
+  "sam3_segment:infer_per_prompt" -> "sam3_segment:predict_whole_image" [style=dashed, label=<<I>otherwise</I>>];
+  "sam3_segment:predict_tiles_stitch" -> "sam3_segment:union_masks" ;
+  "sam3_segment:predict_whole_image" -> "sam3_segment:union_masks" ;
+  "sam3_segment:union_masks" -> "sam3_segment:color_priors" [style=dashed, label=<<I>exclude</I>>];
+  "sam3_segment:union_masks" -> "sam3_segment:postprocess_keep" [style=dashed, label=<<I>include</I>>];
+  "sam3_segment:color_priors" -> "sam3_segment:invert_to_keep" ;
+  "sam3_segment:invert_to_keep" -> "sam3_segment:postprocess_keep" ;
+  "sam3_segment:predict_pooled_top_k" -> "sam3_segment:postprocess_keep" ;
+  "sam3_segment:postprocess_keep" -> "quality_gate" ;
+  "quality_gate" -> "adapt_prompts:pick_fallback_sets" [style=dashed, label=<<I>fail <FONT FACE="TeX Gyre Termes Math">∧</FONT> <I>t</I> &lt; <I>T</I></I>>];
+  "quality_gate" -> "restore_full_res" [style=dashed, label=<<I>pass <FONT FACE="TeX Gyre Termes Math">∨</FONT> <I>t</I> = <I>T</I></I>>];
+  "adapt_prompts:pick_fallback_sets" -> "adapt_prompts:claude_agent_sdk_query" [style=dashed, label=<<I><FONT FACE="Nimbus Mono PS" POINT-SIZE="9">use_llm</FONT></I>>];
+  "adapt_prompts:pick_fallback_sets" -> "adapt_prompts:cycle_fallback_set" [style=dashed, label=<<I>¬<FONT FACE="Nimbus Mono PS" POINT-SIZE="9">use_llm</FONT></I>>];
+  "adapt_prompts:claude_agent_sdk_query" -> "adapt_prompts:__end__" [style=dashed, label=<<I>valid reply</I>>];
+  "adapt_prompts:claude_agent_sdk_query" -> "adapt_prompts:cycle_fallback_set" [style=dashed, label=<<I>exception</I>>];
+  "adapt_prompts:cycle_fallback_set" -> "adapt_prompts:__end__" ;
+  "adapt_prompts:__end__" -> "sam3_segment:select_branch" [constraint=false, penwidth=1.0, color="#111111", label=<<I>P</I><SUB><I>t</I>+1</SUB>>, fontsize=10.5];
+  "restore_full_res" -> "dilate_mask" ;
+  "dilate_mask" -> "save_result" ;
+  "save_result" -> "__end__" ;
+}

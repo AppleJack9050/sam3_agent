@@ -1,0 +1,2334 @@
+[
+{
+"stem": "DJI_0002",
+"removed_frac": 0.14196425
+},
+{
+"stem": "DJI_0003",
+"removed_frac": 0.1413935
+},
+{
+"stem": "DJI_0005",
+"removed_frac": 0.14407283333333334
+},
+{
+"stem": "DJI_0006",
+"removed_frac": 0.18554808333333334
+},
+{
+"stem": "DJI_0007",
+"removed_frac": 0.19934725
+},
+{
+"stem": "DJI_0008",
+"removed_frac": 0.19209658333333332
+},
+{
+"stem": "DJI_0009",
+"removed_frac": 0.24401241666666668
+},
+{
+"stem": "DJI_0010",
+"removed_frac": 0.3184923333333333
+},
+{
+"stem": "DJI_0011",
+"removed_frac": 0.3547004166666667
+},
+{
+"stem": "DJI_0012",
+"removed_frac": 0.3810341666666667
+},
+{
+"stem": "DJI_0013",
+"removed_frac": 0.382188
+},
+{
+"stem": "DJI_0014",
+"removed_frac": 0.38994866666666667
+},
+{
+"stem": "DJI_0015",
+"removed_frac": 0.4074621666666667
+},
+{
+"stem": "DJI_0016",
+"removed_frac": 0.4115338333333333
+},
+{
+"stem": "DJI_0017",
+"removed_frac": 0.41478766666666667
+},
+{
+"stem": "DJI_0018",
+"removed_frac": 0.4178845
+},
+{
+"stem": "DJI_0019",
+"removed_frac": 0.4235340833333333
+},
+{
+"stem": "DJI_0020",
+"removed_frac": 0.42866658333333335
+},
+{
+"stem": "DJI_0021",
+"removed_frac": 0.434186
+},
+{
+"stem": "DJI_0022",
+"removed_frac": 0.4535983333333333
+},
+{
+"stem": "DJI_0023",
+"removed_frac": 0.30658966666666665
+},
+{
+"stem": "DJI_0024",
+"removed_frac": 0.22072008333333334
+},
+{
+"stem": "DJI_0025",
+"removed_frac": 0.2556244166666667
+},
+{
+"stem": "DJI_0026",
+"removed_frac": 0.26733558333333335
+},
+{
+"stem": "DJI_0027",
+"removed_frac": 0.26422666666666667
+},
+{
+"stem": "DJI_0028",
+"removed_frac": 0.25612
+},
+{
+"stem": "DJI_0029",
+"removed_frac": 0.24938658333333333
+},
+{
+"stem": "DJI_0030",
+"removed_frac": 0.24455641666666667
+},
+{
+"stem": "DJI_0031",
+"removed_frac": 0.24002766666666667
+},
+{
+"stem": "DJI_0032",
+"removed_frac": 0.23574508333333333
+},
+{
+"stem": "DJI_0033",
+"removed_frac": 0.23137433333333332
+},
+{
+"stem": "DJI_0034",
+"removed_frac": 0.2278375
+},
+{
+"stem": "DJI_0035",
+"removed_frac": 0.22303141666666668
+},
+{
+"stem": "DJI_0036",
+"removed_frac": 0.21892241666666667
+},
+{
+"stem": "DJI_0037",
+"removed_frac": 0.21399483333333333
+},
+{
+"stem": "DJI_0038",
+"removed_frac": 0.20997158333333332
+},
+{
+"stem": "DJI_0039",
+"removed_frac": 0.20497825
+},
+{
+"stem": "DJI_0040",
+"removed_frac": 0.19749058333333333
+},
+{
+"stem": "DJI_0041",
+"removed_frac": 0.1940605
+},
+{
+"stem": "DJI_0042",
+"removed_frac": 0.189
+},
+{
+"stem": "DJI_0043",
+"removed_frac": 0.18045166666666668
+},
+{
+"stem": "DJI_0044",
+"removed_frac": 0.15659175
+},
+{
+"stem": "DJI_0045",
+"removed_frac": 0.15156433333333333
+},
+{
+"stem": "DJI_0046",
+"removed_frac": 0.14752583333333333
+},
+{
+"stem": "DJI_0047",
+"removed_frac": 0.14345525
+},
+{
+"stem": "DJI_0048",
+"removed_frac": 0.13629791666666666
+},
+{
+"stem": "DJI_0049",
+"removed_frac": 0.13180141666666667
+},
+{
+"stem": "DJI_0050",
+"removed_frac": 0.11948925
+},
+{
+"stem": "DJI_0051",
+"removed_frac": 0.11487175
+},
+{
+"stem": "DJI_0052",
+"removed_frac": 0.10731525
+},
+{
+"stem": "DJI_0053",
+"removed_frac": 0.10892658333333333
+},
+{
+"stem": "DJI_0054",
+"removed_frac": 0.11466258333333333
+},
+{
+"stem": "DJI_0055",
+"removed_frac": 0.12932475
+},
+{
+"stem": "DJI_0056",
+"removed_frac": 0.13880333333333333
+},
+{
+"stem": "DJI_0057",
+"removed_frac": 0.14649025
+},
+{
+"stem": "DJI_0058",
+"removed_frac": 0.15189183333333334
+},
+{
+"stem": "DJI_0059",
+"removed_frac": 0.15817875
+},
+{
+"stem": "DJI_0060",
+"removed_frac": 0.16580566666666666
+},
+{
+"stem": "DJI_0061",
+"removed_frac": 0.17048433333333332
+},
+{
+"stem": "DJI_0062",
+"removed_frac": 0.19689775
+},
+{
+"stem": "DJI_0063",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0064",
+"removed_frac": 0.19109308333333333
+},
+{
+"stem": "DJI_0065",
+"removed_frac": 0.19521866666666668
+},
+{
+"stem": "DJI_0066",
+"removed_frac": 0.19554708333333334
+},
+{
+"stem": "DJI_0067",
+"removed_frac": 0.19165391666666667
+},
+{
+"stem": "DJI_0068",
+"removed_frac": 0.19053383333333335
+},
+{
+"stem": "DJI_0069",
+"removed_frac": 0.18913708333333334
+},
+{
+"stem": "DJI_0070",
+"removed_frac": 0.19006225
+},
+{
+"stem": "DJI_0071",
+"removed_frac": 0.19049908333333335
+},
+{
+"stem": "DJI_0072",
+"removed_frac": 0.19489308333333333
+},
+{
+"stem": "DJI_0073",
+"removed_frac": 0.18918625
+},
+{
+"stem": "DJI_0074",
+"removed_frac": 0.1834075
+},
+{
+"stem": "DJI_0075",
+"removed_frac": 0.17560983333333333
+},
+{
+"stem": "DJI_0076",
+"removed_frac": 0.1684685
+},
+{
+"stem": "DJI_0077",
+"removed_frac": 0.16443625
+},
+{
+"stem": "DJI_0078",
+"removed_frac": 0.16089533333333333
+},
+{
+"stem": "DJI_0079",
+"removed_frac": 0.15011908333333332
+},
+{
+"stem": "DJI_0080",
+"removed_frac": 0.14846216666666667
+},
+{
+"stem": "DJI_0081",
+"removed_frac": 0.14624275
+},
+{
+"stem": "DJI_0082",
+"removed_frac": 0.14710491666666667
+},
+{
+"stem": "DJI_0083",
+"removed_frac": 0.15375483333333334
+},
+{
+"stem": "DJI_0084",
+"removed_frac": 0.15868566666666667
+},
+{
+"stem": "DJI_0085",
+"removed_frac": 0.16217708333333333
+},
+{
+"stem": "DJI_0086",
+"removed_frac": 0.16275733333333334
+},
+{
+"stem": "DJI_0087",
+"removed_frac": 0.16067758333333335
+},
+{
+"stem": "DJI_0088",
+"removed_frac": 0.159318
+},
+{
+"stem": "DJI_0089",
+"removed_frac": 0.15811516666666667
+},
+{
+"stem": "DJI_0090",
+"removed_frac": 0.15907691666666668
+},
+{
+"stem": "DJI_0091",
+"removed_frac": 0.167488
+},
+{
+"stem": "DJI_0092",
+"removed_frac": 0.175308
+},
+{
+"stem": "DJI_0093",
+"removed_frac": 0.18059975
+},
+{
+"stem": "DJI_0094",
+"removed_frac": 0.1855385
+},
+{
+"stem": "DJI_0095",
+"removed_frac": 0.18839466666666665
+},
+{
+"stem": "DJI_0096",
+"removed_frac": 0.18901283333333332
+},
+{
+"stem": "DJI_0097",
+"removed_frac": 0.1903835
+},
+{
+"stem": "DJI_0098",
+"removed_frac": 0.19499383333333334
+},
+{
+"stem": "DJI_0099",
+"removed_frac": 0.19757125
+},
+{
+"stem": "DJI_0100",
+"removed_frac": 0.20921641666666665
+},
+{
+"stem": "DJI_0101",
+"removed_frac": 0.21748433333333334
+},
+{
+"stem": "DJI_0102",
+"removed_frac": 0.22506641666666666
+},
+{
+"stem": "DJI_0103",
+"removed_frac": 0.23369616666666668
+},
+{
+"stem": "DJI_0104",
+"removed_frac": 0.24945733333333334
+},
+{
+"stem": "DJI_0105",
+"removed_frac": 0.25442175
+},
+{
+"stem": "DJI_0106",
+"removed_frac": 0.25414025
+},
+{
+"stem": "DJI_0107",
+"removed_frac": 0.28677025
+},
+{
+"stem": "DJI_0108",
+"removed_frac": 0.2995195
+},
+{
+"stem": "DJI_0109",
+"removed_frac": 0.3354884166666667
+},
+{
+"stem": "DJI_0110",
+"removed_frac": 0.28990525
+},
+{
+"stem": "DJI_0111",
+"removed_frac": 0.25044025
+},
+{
+"stem": "DJI_0112",
+"removed_frac": 0.2596395
+},
+{
+"stem": "DJI_0113",
+"removed_frac": 0.2655065
+},
+{
+"stem": "DJI_0114",
+"removed_frac": 0.26561191666666667
+},
+{
+"stem": "DJI_0115",
+"removed_frac": 0.26471408333333335
+},
+{
+"stem": "DJI_0116",
+"removed_frac": 0.2647884166666667
+},
+{
+"stem": "DJI_0117",
+"removed_frac": 0.26545416666666666
+},
+{
+"stem": "DJI_0118",
+"removed_frac": 0.2652985
+},
+{
+"stem": "DJI_0119",
+"removed_frac": 0.26402691666666667
+},
+{
+"stem": "DJI_0120",
+"removed_frac": 0.26204725
+},
+{
+"stem": "DJI_0121",
+"removed_frac": 0.2603884166666667
+},
+{
+"stem": "DJI_0122",
+"removed_frac": 0.257399
+},
+{
+"stem": "DJI_0123",
+"removed_frac": 0.2535948333333333
+},
+{
+"stem": "DJI_0124",
+"removed_frac": 0.24940241666666665
+},
+{
+"stem": "DJI_0125",
+"removed_frac": 0.24609033333333333
+},
+{
+"stem": "DJI_0126",
+"removed_frac": 0.23305508333333333
+},
+{
+"stem": "DJI_0127",
+"removed_frac": 0.2177295
+},
+{
+"stem": "DJI_0128",
+"removed_frac": 0.21878616666666667
+},
+{
+"stem": "DJI_0129",
+"removed_frac": 0.220719
+},
+{
+"stem": "DJI_0130",
+"removed_frac": 0.22320866666666667
+},
+{
+"stem": "DJI_0131",
+"removed_frac": 0.22614858333333332
+},
+{
+"stem": "DJI_0132",
+"removed_frac": 0.231775
+},
+{
+"stem": "DJI_0133",
+"removed_frac": 0.23866591666666667
+},
+{
+"stem": "DJI_0134",
+"removed_frac": 0.24099741666666666
+},
+{
+"stem": "DJI_0135",
+"removed_frac": 0.24346041666666668
+},
+{
+"stem": "DJI_0136",
+"removed_frac": 0.24822733333333333
+},
+{
+"stem": "DJI_0137",
+"removed_frac": 0.2518925833333333
+},
+{
+"stem": "DJI_0138",
+"removed_frac": 0.25397583333333335
+},
+{
+"stem": "DJI_0139",
+"removed_frac": 0.25653
+},
+{
+"stem": "DJI_0140",
+"removed_frac": 0.28892891666666665
+},
+{
+"stem": "DJI_0141",
+"removed_frac": 0.2854198333333333
+},
+{
+"stem": "DJI_0142",
+"removed_frac": 0.28426483333333336
+},
+{
+"stem": "DJI_0143",
+"removed_frac": 0.2832711666666667
+},
+{
+"stem": "DJI_0144",
+"removed_frac": 0.2823866666666667
+},
+{
+"stem": "DJI_0145",
+"removed_frac": 0.2820373333333333
+},
+{
+"stem": "DJI_0146",
+"removed_frac": 0.2819546666666667
+},
+{
+"stem": "DJI_0147",
+"removed_frac": 0.28178925
+},
+{
+"stem": "DJI_0148",
+"removed_frac": 0.28183975
+},
+{
+"stem": "DJI_0149",
+"removed_frac": 0.2824408333333333
+},
+{
+"stem": "DJI_0150",
+"removed_frac": 0.28296408333333334
+},
+{
+"stem": "DJI_0151",
+"removed_frac": 0.28457883333333334
+},
+{
+"stem": "DJI_0152",
+"removed_frac": 0.28628625
+},
+{
+"stem": "DJI_0153",
+"removed_frac": 0.28878733333333334
+},
+{
+"stem": "DJI_0154",
+"removed_frac": 0.2902040833333333
+},
+{
+"stem": "DJI_0155",
+"removed_frac": 0.2911495
+},
+{
+"stem": "DJI_0156",
+"removed_frac": 0.2966190833333333
+},
+{
+"stem": "DJI_0157",
+"removed_frac": 0.3019335
+},
+{
+"stem": "DJI_0158",
+"removed_frac": 0.30311733333333335
+},
+{
+"stem": "DJI_0159",
+"removed_frac": 0.3054569166666667
+},
+{
+"stem": "DJI_0160",
+"removed_frac": 0.30640325
+},
+{
+"stem": "DJI_0161",
+"removed_frac": 0.3066435
+},
+{
+"stem": "DJI_0162",
+"removed_frac": 0.30559833333333336
+},
+{
+"stem": "DJI_0163",
+"removed_frac": 0.306552
+},
+{
+"stem": "DJI_0164",
+"removed_frac": 0.30647475
+},
+{
+"stem": "DJI_0165",
+"removed_frac": 0.3080446666666667
+},
+{
+"stem": "DJI_0166",
+"removed_frac": 0.30936308333333334
+},
+{
+"stem": "DJI_0167",
+"removed_frac": 0.3085846666666667
+},
+{
+"stem": "DJI_0168",
+"removed_frac": 0.30660858333333335
+},
+{
+"stem": "DJI_0169",
+"removed_frac": 0.305799
+},
+{
+"stem": "DJI_0170",
+"removed_frac": 0.3056919166666667
+},
+{
+"stem": "DJI_0171",
+"removed_frac": 0.30749058333333334
+},
+{
+"stem": "DJI_0172",
+"removed_frac": 0.30628283333333334
+},
+{
+"stem": "DJI_0173",
+"removed_frac": 0.3068854166666667
+},
+{
+"stem": "DJI_0174",
+"removed_frac": 0.30958975
+},
+{
+"stem": "DJI_0175",
+"removed_frac": 0.31296575
+},
+{
+"stem": "DJI_0176",
+"removed_frac": 0.31495341666666665
+},
+{
+"stem": "DJI_0177",
+"removed_frac": 0.32394216666666664
+},
+{
+"stem": "DJI_0178",
+"removed_frac": 0.32669075
+},
+{
+"stem": "DJI_0179",
+"removed_frac": 0.3966814166666667
+},
+{
+"stem": "DJI_0180",
+"removed_frac": 0.39547858333333336
+},
+{
+"stem": "DJI_0181",
+"removed_frac": 0.3923250833333333
+},
+{
+"stem": "DJI_0182",
+"removed_frac": 0.3878054166666667
+},
+{
+"stem": "DJI_0183",
+"removed_frac": 0.40733166666666665
+},
+{
+"stem": "DJI_0184",
+"removed_frac": 0.4009215
+},
+{
+"stem": "DJI_0185",
+"removed_frac": 0.39524458333333334
+},
+{
+"stem": "DJI_0186",
+"removed_frac": 0.38931808333333334
+},
+{
+"stem": "DJI_0187",
+"removed_frac": 0.38509958333333333
+},
+{
+"stem": "DJI_0188",
+"removed_frac": 0.38262025
+},
+{
+"stem": "DJI_0189",
+"removed_frac": 0.3695716666666667
+},
+{
+"stem": "DJI_0190",
+"removed_frac": 0.36521516666666665
+},
+{
+"stem": "DJI_0191",
+"removed_frac": 0.3623234166666667
+},
+{
+"stem": "DJI_0192",
+"removed_frac": 0.35848633333333335
+},
+{
+"stem": "DJI_0193",
+"removed_frac": 0.35334716666666666
+},
+{
+"stem": "DJI_0194",
+"removed_frac": 0.3250605833333333
+},
+{
+"stem": "DJI_0195",
+"removed_frac": 0.322753
+},
+{
+"stem": "DJI_0196",
+"removed_frac": 0.31944541666666665
+},
+{
+"stem": "DJI_0197",
+"removed_frac": 0.30811333333333335
+},
+{
+"stem": "DJI_0198",
+"removed_frac": 0.30597725
+},
+{
+"stem": "DJI_0199",
+"removed_frac": 0.29911925
+},
+{
+"stem": "DJI_0200",
+"removed_frac": 0.3012305
+},
+{
+"stem": "DJI_0201",
+"removed_frac": 0.3036574166666667
+},
+{
+"stem": "DJI_0202",
+"removed_frac": 0.30876983333333335
+},
+{
+"stem": "DJI_0203",
+"removed_frac": 0.31119858333333333
+},
+{
+"stem": "DJI_0204",
+"removed_frac": 0.3135678333333333
+},
+{
+"stem": "DJI_0205",
+"removed_frac": 0.3172675833333333
+},
+{
+"stem": "DJI_0206",
+"removed_frac": 0.320166
+},
+{
+"stem": "DJI_0207",
+"removed_frac": 0.3607575
+},
+{
+"stem": "DJI_0208",
+"removed_frac": 0.3702935
+},
+{
+"stem": "DJI_0209",
+"removed_frac": 0.37063575
+},
+{
+"stem": "DJI_0210",
+"removed_frac": 0.3706129166666667
+},
+{
+"stem": "DJI_0211",
+"removed_frac": 0.37027925
+},
+{
+"stem": "DJI_0212",
+"removed_frac": 0.39390275
+},
+{
+"stem": "DJI_0213",
+"removed_frac": 0.39463375
+},
+{
+"stem": "DJI_0214",
+"removed_frac": 0.39537925
+},
+{
+"stem": "DJI_0215",
+"removed_frac": 0.39471866666666666
+},
+{
+"stem": "DJI_0216",
+"removed_frac": 0.3949864166666667
+},
+{
+"stem": "DJI_0217",
+"removed_frac": 0.39530458333333335
+},
+{
+"stem": "DJI_0218",
+"removed_frac": 0.39484675
+},
+{
+"stem": "DJI_0219",
+"removed_frac": 0.39527575
+},
+{
+"stem": "DJI_0220",
+"removed_frac": 0.39472975
+},
+{
+"stem": "DJI_0221",
+"removed_frac": 0.39489225
+},
+{
+"stem": "DJI_0222",
+"removed_frac": 0.39433475
+},
+{
+"stem": "DJI_0223",
+"removed_frac": 0.394567
+},
+{
+"stem": "DJI_0224",
+"removed_frac": 0.3951430833333333
+},
+{
+"stem": "DJI_0225",
+"removed_frac": 0.3958085
+},
+{
+"stem": "DJI_0226",
+"removed_frac": 0.3974645
+},
+{
+"stem": "DJI_0227",
+"removed_frac": 0.39820875
+},
+{
+"stem": "DJI_0228",
+"removed_frac": 0.44072791666666666
+},
+{
+"stem": "DJI_0229",
+"removed_frac": 0.4720701666666667
+},
+{
+"stem": "DJI_0230",
+"removed_frac": 0.4735074166666667
+},
+{
+"stem": "DJI_0231",
+"removed_frac": 0.47543925
+},
+{
+"stem": "DJI_0232",
+"removed_frac": 0.47571441666666664
+},
+{
+"stem": "DJI_0233",
+"removed_frac": 0.4764988333333333
+},
+{
+"stem": "DJI_0234",
+"removed_frac": 0.4770095833333333
+},
+{
+"stem": "DJI_0235",
+"removed_frac": 0.3727668333333333
+},
+{
+"stem": "DJI_0236",
+"removed_frac": 0.31170808333333333
+},
+{
+"stem": "DJI_0237",
+"removed_frac": 0.3369995
+},
+{
+"stem": "DJI_0238",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0239",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0240",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0241",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0242",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0243",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0244",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0245",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0246",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0247",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0248",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0249",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0250",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0251",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0252",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0253",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0254",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0255",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0256",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0257",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0258",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0259",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0260",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0261",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0262",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0263",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0264",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0265",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0266",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0267",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0268",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0269",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0270",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0271",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0272",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0273",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0274",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0275",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0276",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0277",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0278",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0279",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0280",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0281",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0282",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0283",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0284",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0285",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0286",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0287",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0288",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0289",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0290",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0291",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0292",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0293",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0294",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0295",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0296",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0297",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0298",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0299",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0300",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0301",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0302",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0303",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0304",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0305",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0306",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0307",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0308",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0309",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0310",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0311",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0312",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0313",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0314",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0315",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0316",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0317",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0318",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0319",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0320",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0321",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0322",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0323",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0324",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0325",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0326",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0327",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0328",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0329",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0330",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0331",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0332",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0333",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0334",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0335",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0336",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0337",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0338",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0339",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0340",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0341",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0342",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0343",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0344",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0345",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0346",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0347",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0348",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0349",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0350",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0351",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0352",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0353",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0354",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0355",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0356",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0357",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0358",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0359",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0360",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0361",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0362",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0363",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0364",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0365",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0366",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0367",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0368",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0369",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0370",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0371",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0372",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0373",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0374",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0375",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0376",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0377",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0378",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0379",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0380",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0381",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0382",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0383",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0384",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0385",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0386",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0387",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0388",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0389",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0390",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0391",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0392",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0393",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0394",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0395",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0396",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0397",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0398",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0399",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0400",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0401",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0402",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0403",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0404",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0405",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0406",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0407",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0408",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0409",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0410",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0411",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0412",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0413",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0414",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0415",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0416",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0417",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0418",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0419",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0420",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0421",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0422",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0423",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0424",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0425",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0426",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0427",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0428",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0429",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0430",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0431",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0432",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0433",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0434",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0435",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0436",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0437",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0438",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0439",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0440",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0441",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0442",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0443",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0444",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0445",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0446",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0447",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0448",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0449",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0450",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0451",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0452",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0453",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0454",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0455",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0456",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0457",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0458",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0459",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0460",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0461",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0462",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0463",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0464",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0465",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0466",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0467",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0468",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0469",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0470",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0471",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0472",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0473",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0474",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0475",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0476",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0477",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0478",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0479",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0480",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0481",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0482",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0483",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0484",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0485",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0486",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0487",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0488",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0489",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0490",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0491",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0492",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0493",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0494",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0495",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0496",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0497",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0498",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0499",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0500",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0501",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0502",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0503",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0504",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0505",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0506",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0507",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0508",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0509",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0510",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0511",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0512",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0513",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0514",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0515",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0516",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0517",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0518",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0519",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0520",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0521",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0522",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0523",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0524",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0525",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0526",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0527",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0528",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0529",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0530",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0531",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0532",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0533",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0534",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0535",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0536",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0537",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0538",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0539",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0540",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0541",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0542",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0543",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0544",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0545",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0546",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0547",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0548",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0549",
+"removed_frac": 0.00690025
+},
+{
+"stem": "DJI_0550",
+"removed_frac": 0.058902333333333334
+},
+{
+"stem": "DJI_0551",
+"removed_frac": 0.13646125
+},
+{
+"stem": "DJI_0552",
+"removed_frac": 0.19492583333333333
+},
+{
+"stem": "DJI_0553",
+"removed_frac": 0.1814125
+},
+{
+"stem": "DJI_0554",
+"removed_frac": 0.16547933333333334
+},
+{
+"stem": "DJI_0555",
+"removed_frac": 0.18042666666666668
+},
+{
+"stem": "DJI_0556",
+"removed_frac": 0.18547258333333333
+},
+{
+"stem": "DJI_0557",
+"removed_frac": 0.144605
+},
+{
+"stem": "DJI_0558",
+"removed_frac": 0.09846041666666666
+},
+{
+"stem": "DJI_0559",
+"removed_frac": 0.14830225
+},
+{
+"stem": "DJI_0560",
+"removed_frac": 0.16917966666666667
+},
+{
+"stem": "DJI_0561",
+"removed_frac": 0.16428983333333333
+},
+{
+"stem": "DJI_0562",
+"removed_frac": 0.16509325
+},
+{
+"stem": "DJI_0563",
+"removed_frac": 0.16586566666666666
+},
+{
+"stem": "DJI_0564",
+"removed_frac": 0.22248591666666667
+},
+{
+"stem": "DJI_0565",
+"removed_frac": 0.2239515
+},
+{
+"stem": "DJI_0566",
+"removed_frac": 0.22390191666666667
+},
+{
+"stem": "DJI_0567",
+"removed_frac": 0.22226008333333333
+},
+{
+"stem": "DJI_0568",
+"removed_frac": 0.22012641666666666
+},
+{
+"stem": "DJI_0569",
+"removed_frac": 0.21863475
+},
+{
+"stem": "DJI_0570",
+"removed_frac": 0.150672
+},
+{
+"stem": "DJI_0571",
+"removed_frac": 0.09487791666666667
+},
+{
+"stem": "DJI_0572",
+"removed_frac": 0.020436666666666665
+},
+{
+"stem": "DJI_0573",
+"removed_frac": 0.02293875
+},
+{
+"stem": "DJI_0574",
+"removed_frac": 0.07345933333333333
+},
+{
+"stem": "DJI_0575",
+"removed_frac": 0.42223808333333335
+},
+{
+"stem": "DJI_0576",
+"removed_frac": 0.45275333333333334
+},
+{
+"stem": "DJI_0578",
+"removed_frac": 0.46189016666666666
+},
+{
+"stem": "DJI_0579",
+"removed_frac": 0.45330708333333336
+},
+{
+"stem": "DJI_0580",
+"removed_frac": 0.46521958333333335
+},
+{
+"stem": "DJI_0581",
+"removed_frac": 0.4736281666666667
+},
+{
+"stem": "DJI_0582",
+"removed_frac": 0.36748375
+},
+{
+"stem": "DJI_0583",
+"removed_frac": 0.3415281666666667
+},
+{
+"stem": "DJI_0584",
+"removed_frac": 0.38197508333333335
+},
+{
+"stem": "DJI_0585",
+"removed_frac": 0.0
+},
+{
+"stem": "DJI_0586",
+"removed_frac": 0.0
+}
+]

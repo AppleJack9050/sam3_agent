@@ -1,0 +1,12 @@
+{
+  "data": "/mnt/windows/Dataset/2016-11-28_Howchin-AlphLake_Imagery-Files.beh/retrain_fair/data/sam3_noagent",
+  "output": "/mnt/windows/Dataset/2016-11-28_Howchin-AlphLake_Imagery-Files.beh/retrain_fair/runs/sam3_noagent",
+  "iters": 30000,
+  "test_every": 8,
+  "downsample": 4,
+  "git_sha": "d1157c34be0e8fb6a343d5ee0acf507cb304558f",
+  "torch_version": "2.12.0.dev20260407+cu128",
+  "gsplat_version": "1.5.3",
+  "device": "NVIDIA GeForce RTX 5090",
+  "compute_capability": "sm_120"
+}

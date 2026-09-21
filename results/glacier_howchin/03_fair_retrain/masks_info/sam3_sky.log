@@ -1,0 +1,14 @@
+Loading weights:   0%|          | 0/1468 [00:00<?, ?it/s]Loading weights:  37%|███▋      | 541/1468 [00:00<00:00, 2728.62it/s]Loading weights:  55%|█████▌    | 814/1468 [00:00<00:00, 1413.72it/s]Loading weights:  67%|██████▋   | 977/1468 [00:00<00:00, 1307.50it/s]Loading weights:  76%|███████▌  | 1115/1468 [00:00<00:00, 1140.94it/s]Loading weights:  85%|████████▌ | 1255/1468 [00:00<00:00, 1198.33it/s]Loading weights:  96%|█████████▋| 1413/1468 [00:01<00:00, 1286.86it/s]Loading weights: 100%|██████████| 1468/1468 [00:01<00:00, 1340.97it/s]
+  0 DJI_0002 removed=0.144 ok (1s)
+  50 DJI_0053 removed=0.111 ok (20s)
+  100 DJI_0103 removed=0.236 ok (38s)
+  150 DJI_0153 removed=0.291 ok (56s)
+  200 DJI_0203 removed=0.314 ok (75s)
+  250 DJI_0253 removed=0.000 empty: SAM 3 returned no masks for this  (92s)
+  300 DJI_0303 removed=0.000 empty: SAM 3 returned no masks for this  (106s)
+  350 DJI_0353 removed=0.000 empty: SAM 3 returned no masks for this  (120s)
+  400 DJI_0403 removed=0.000 empty: SAM 3 returned no masks for this  (133s)
+  450 DJI_0453 removed=0.000 empty: SAM 3 returned no masks for this  (147s)
+  500 DJI_0503 removed=0.000 empty: SAM 3 returned no masks for this  (161s)
+  550 DJI_0553 removed=0.184 ok (175s)
+sam3_sky: 583 masks, frames with removal 269, mean removed 0.1243, 185s

@@ -1,0 +1,22 @@
+2026-09-13 18:02:26,552 [INFO] torch._native.dsl_registry: Successfully registered DSL: cutedsl
+2026-09-13 18:02:26,553 [INFO] torch._native.dsl_registry: Successfully registered DSL: triton
+2026-09-13 18:02:26,880 [INFO] root: GPU: NVIDIA GeForce RTX 5090  sm_120
+2026-09-13 18:02:27,786 [INFO] gsplat_eval.dataset: Downsampling by 4x: images and intrinsics rescaled.
+2026-09-13 18:02:28,056 [INFO] gsplat_eval.dataset: Loaded scene: 583 images (train=510, test=73), 525964 sparse points
+2026-09-13 18:02:36,090 [INFO] gsplat_eval.trainer: Scene scale = 7.587, init Gaussians = 525964
+2026-09-13 18:06:13,909 [INFO] gsplat_eval.io_utils: Wrote 5289667 Gaussians → /mnt/windows/Dataset/2016-11-28_Howchin-AlphLake_Imagery-Files.beh/retrain_fair/runs/agent/checkpoints/point_cloud_7000.ply
+2026-09-13 18:29:50,821 [INFO] gsplat_eval.io_utils: Wrote 11040715 Gaussians → /mnt/windows/Dataset/2016-11-28_Howchin-AlphLake_Imagery-Files.beh/retrain_fair/runs/agent/checkpoints/point_cloud_30000.ply
+2026-09-13 18:29:50,900 [INFO] gsplat_eval.trainer: Training complete in 1634.3s (11040715 Gaussians)
+2026-09-13 18:30:09,596 [INFO] gsplat_eval.render: Wrote 73 rendered test views → /mnt/windows/Dataset/2016-11-28_Howchin-AlphLake_Imagery-Files.beh/retrain_fair/runs/agent/renders/test
+2026-09-13 18:30:13,806 [INFO] root: ============================================================
+2026-09-13 18:30:13,806 [INFO] root: Final metrics:
+2026-09-13 18:30:13,806 [INFO] root:   psnr                 23.282699584960938
+2026-09-13 18:30:13,806 [INFO] root:   ssim                 0.7711083889007568
+2026-09-13 18:30:13,806 [INFO] root:   lpips                0.26040080189704895
+2026-09-13 18:30:13,806 [INFO] root:   rmse                 0.06408786058602255
+2026-09-13 18:30:13,806 [INFO] root:   num_test_images      73
+2026-09-13 18:30:13,806 [INFO] root:   num_gaussians        11040715
+2026-09-13 18:30:13,806 [INFO] root:   ply_size_mb          2611.254551887512
+2026-09-13 18:30:13,806 [INFO] root:   train_seconds        1634.3293266296387
+2026-09-13 18:30:13,806 [INFO] root:   iters                30000
+2026-09-13 18:30:13,806 [INFO] root: ============================================================

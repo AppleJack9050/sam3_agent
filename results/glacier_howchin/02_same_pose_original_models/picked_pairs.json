@@ -1,0 +1,125 @@
+[
+ {
+  "A": "DJI_0114",
+  "N": "DJI_0115",
+  "fair_heldout_delta_keep_psnr": -0.9778366088867188,
+  "A_keep_frac": 0.7344533333333333,
+  "N_keep_frac": 0.735232,
+  "scores_A": {
+   "unmasked": {
+    "split": "train",
+    "psnr_keep": 30.71649169921875,
+    "psnr_full": 30.570262908935547
+   },
+   "native_prompt": {
+    "split": "train",
+    "psnr_keep": 31.583942413330078,
+    "psnr_full": 30.96390151977539
+   },
+   "masked": {
+    "split": "test",
+    "psnr_keep": 26.184070587158203,
+    "psnr_full": 8.638254165649414
+   }
+  },
+  "scores_N": {
+   "unmasked": {
+    "split": "test",
+    "psnr_keep": 27.202722549438477,
+    "psnr_full": 27.81852912902832
+   },
+   "native_prompt": {
+    "split": "test",
+    "psnr_keep": 27.161907196044922,
+    "psnr_full": 27.4697208404541
+   },
+   "masked": {
+    "split": "train",
+    "psnr_keep": 30.87041473388672,
+    "psnr_full": 8.707881927490234
+   }
+  }
+ },
+ {
+  "A": "DJI_0098",
+  "N": "DJI_0099",
+  "fair_heldout_delta_keep_psnr": 0.41142845153808594,
+  "A_keep_frac": 0.8048906666666666,
+  "N_keep_frac": 0.8023253333333333,
+  "scores_A": {
+   "unmasked": {
+    "split": "train",
+    "psnr_keep": 28.648500442504883,
+    "psnr_full": 27.792800903320312
+   },
+   "native_prompt": {
+    "split": "train",
+    "psnr_keep": 28.825428009033203,
+    "psnr_full": 28.382017135620117
+   },
+   "masked": {
+    "split": "test",
+    "psnr_keep": 24.302799224853516,
+    "psnr_full": 10.772573471069336
+   }
+  },
+  "scores_N": {
+   "unmasked": {
+    "split": "test",
+    "psnr_keep": 23.747758865356445,
+    "psnr_full": 24.03976058959961
+   },
+   "native_prompt": {
+    "split": "test",
+    "psnr_keep": 23.89137077331543,
+    "psnr_full": 24.159297943115234
+   },
+   "masked": {
+    "split": "train",
+    "psnr_keep": 30.201730728149414,
+    "psnr_full": 10.944823265075684
+   }
+  }
+ },
+ {
+  "A": "DJI_0138",
+  "N": "DJI_0139",
+  "fair_heldout_delta_keep_psnr": 2.4763336181640625,
+  "A_keep_frac": 0.7458826666666667,
+  "N_keep_frac": 0.7433333333333333,
+  "scores_A": {
+   "unmasked": {
+    "split": "train",
+    "psnr_keep": 29.626590728759766,
+    "psnr_full": 29.31481170654297
+   },
+   "native_prompt": {
+    "split": "train",
+    "psnr_keep": 29.96192741394043,
+    "psnr_full": 29.026649475097656
+   },
+   "masked": {
+    "split": "test",
+    "psnr_keep": 22.156768798828125,
+    "psnr_full": 7.637028694152832
+   }
+  },
+  "scores_N": {
+   "unmasked": {
+    "split": "test",
+    "psnr_keep": 19.930557250976562,
+    "psnr_full": 20.810741424560547
+   },
+   "native_prompt": {
+    "split": "test",
+    "psnr_keep": 19.680435180664062,
+    "psnr_full": 20.41323471069336
+   },
+   "masked": {
+    "split": "train",
+    "psnr_keep": 25.1676082611084,
+    "psnr_full": 7.67315149307251
+   }
+  }
+ }
+]

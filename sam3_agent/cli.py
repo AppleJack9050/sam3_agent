@@ -72,7 +72,38 @@ def main():
                    help="enable HSV sky prior (ground-level shots only; misfires on aerial ice)")
     p.add_argument("--color-prior-yellow", action="store_true",
                    help="enable HSV yellow-placard prior")
+    p.add_argument("--include-top-k", type=int, default=0,
+                   help="include mode: keep only the top-k highest-confidence SAM 3 "
+                        "detections (0=union all; 1 avoids over-segmentation for a single target)")
+    p.add_argument("--full-res", dest="full_res", action="store_true", default=True,
+                   help="apply the mask to the original full-resolution image (default)")
+    p.add_argument("--no-full-res", dest="full_res", action="store_false",
+                   help="legacy: apply the mask to the downscaled (target_long_side) image")
+    p.add_argument("--target-long-side", type=int, default=2048,
+                   help="resize input so its long side == this before SAM 3 (default 2048)")
+    p.add_argument("--tile-threshold", type=int, default=2048,
+                   help="tile the image when its long side exceeds this (default 2048)")
+    p.add_argument("--morph-close", dest="morph_close_px", type=int, default=7,
+                   help="morphological-close kernel (px) on the keep mask; 0/1 disables (default 7)")
+    p.add_argument("--dilate", dest="dilate_px", type=int, default=0,
+                   help="outward dilation (px, at OUTPUT resolution) of the final keep mask; "
+                        "makes it a slight superset of the foreground. Strongly improves "
+                        "downstream 3DGS fidelity (recommended ~16 for full-res output). 0=off")
+    p.add_argument("--keep-all-components", dest="largest_component_only",
+                   action="store_false", default=True,
+                   help="keep ALL connected components of the keep mask, not just the largest. "
+                        "Use with --include-top-k>1 to retain spatially-disconnected parts of a "
+                        "multi-part object (e.g. a bicycle's separate wheels) instead of dropping "
+                        "them — avoids under-segmenting multi-instance targets.")
+    p.add_argument("--native-res", action="store_true",
+                   help="run SAM 3 at native resolution: no downscale, no tiling (sets "
+                        "--target-long-side and --tile-threshold very large). Sharper mask edges "
+                        "for downstream 3D reconstruction; keeps --include-top-k active.")
     args = p.parse_args()
+
+    if args.native_res:
+        args.target_long_side = 1_000_000
+        args.tile_threshold = 1_000_000
 
     if args.batch:
         if args.input or args.output:
@@ -92,6 +123,13 @@ def main():
         max_retries=args.max_retries,
         color_prior_sky=args.color_prior_sky,
         color_prior_yellow=args.color_prior_yellow,
+        include_top_k=args.include_top_k,
+        output_full_resolution=args.full_res,
+        target_long_side=args.target_long_side,
+        tile_threshold=args.tile_threshold,
+        morph_close_px=args.morph_close_px,
+        dilate_px=args.dilate_px,
+        largest_component_only=args.largest_component_only,
     )
     if args.exclude:
         cfg_kwargs["exclude_prompts"] = tuple(args.exclude)

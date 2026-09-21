@@ -1,0 +1,4621 @@
+[
+{
+"stem": "DJI_0002",
+"removed_frac": 0.14437391666666666,
+"n_masks": 1,
+"scores": [
+0.9789
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0003",
+"removed_frac": 0.14383383333333333,
+"n_masks": 1,
+"scores": [
+0.9791
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0005",
+"removed_frac": 0.14648183333333334,
+"n_masks": 1,
+"scores": [
+0.9797
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0006",
+"removed_frac": 0.18786616666666667,
+"n_masks": 1,
+"scores": [
+0.985
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0007",
+"removed_frac": 0.20202733333333334,
+"n_masks": 1,
+"scores": [
+0.985
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0008",
+"removed_frac": 0.19455116666666666,
+"n_masks": 1,
+"scores": [
+0.9845
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0009",
+"removed_frac": 0.24651991666666667,
+"n_masks": 1,
+"scores": [
+0.9858
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0010",
+"removed_frac": 0.3210024166666667,
+"n_masks": 1,
+"scores": [
+0.9894
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0011",
+"removed_frac": 0.3572044166666667,
+"n_masks": 1,
+"scores": [
+0.9895
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0012",
+"removed_frac": 0.37533541666666664,
+"n_masks": 1,
+"scores": [
+0.9879
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0013",
+"removed_frac": 0.3771550833333333,
+"n_masks": 1,
+"scores": [
+0.9872
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0014",
+"removed_frac": 0.38637675,
+"n_masks": 1,
+"scores": [
+0.9889
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0015",
+"removed_frac": 0.40363975,
+"n_masks": 1,
+"scores": [
+0.9886
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0016",
+"removed_frac": 0.3999801666666667,
+"n_masks": 1,
+"scores": [
+0.989
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0017",
+"removed_frac": 0.40879791666666665,
+"n_masks": 1,
+"scores": [
+0.9897
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0018",
+"removed_frac": 0.4118385,
+"n_masks": 1,
+"scores": [
+0.9882
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0019",
+"removed_frac": 0.41371966666666665,
+"n_masks": 1,
+"scores": [
+0.9888
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0020",
+"removed_frac": 0.4239098333333333,
+"n_masks": 1,
+"scores": [
+0.9895
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0021",
+"removed_frac": 0.41989875,
+"n_masks": 1,
+"scores": [
+0.9897
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0022",
+"removed_frac": 0.44596216666666666,
+"n_masks": 1,
+"scores": [
+0.9896
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0023",
+"removed_frac": 0.3091710833333333,
+"n_masks": 1,
+"scores": [
+0.9896
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0024",
+"removed_frac": 0.2232185,
+"n_masks": 1,
+"scores": [
+0.9827
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0025",
+"removed_frac": 0.25811825,
+"n_masks": 1,
+"scores": [
+0.9898
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0026",
+"removed_frac": 0.26980725,
+"n_masks": 1,
+"scores": [
+0.9905
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0027",
+"removed_frac": 0.26656325,
+"n_masks": 1,
+"scores": [
+0.9905
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0028",
+"removed_frac": 0.2585348333333333,
+"n_masks": 1,
+"scores": [
+0.9871
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0029",
+"removed_frac": 0.25168,
+"n_masks": 1,
+"scores": [
+0.9868
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0030",
+"removed_frac": 0.24687891666666667,
+"n_masks": 1,
+"scores": [
+0.9846
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0031",
+"removed_frac": 0.24238566666666667,
+"n_masks": 1,
+"scores": [
+0.9875
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0032",
+"removed_frac": 0.23809791666666666,
+"n_masks": 1,
+"scores": [
+0.987
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0033",
+"removed_frac": 0.23368558333333334,
+"n_masks": 1,
+"scores": [
+0.9872
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0034",
+"removed_frac": 0.230166,
+"n_masks": 1,
+"scores": [
+0.9863
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0035",
+"removed_frac": 0.225475,
+"n_masks": 1,
+"scores": [
+0.9853
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0036",
+"removed_frac": 0.22132816666666666,
+"n_masks": 1,
+"scores": [
+0.9854
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0037",
+"removed_frac": 0.21640891666666667,
+"n_masks": 1,
+"scores": [
+0.9854
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0038",
+"removed_frac": 0.21246008333333333,
+"n_masks": 1,
+"scores": [
+0.9867
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0039",
+"removed_frac": 0.20745716666666666,
+"n_masks": 1,
+"scores": [
+0.9845
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0040",
+"removed_frac": 0.199913,
+"n_masks": 1,
+"scores": [
+0.985
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0041",
+"removed_frac": 0.19653375,
+"n_masks": 1,
+"scores": [
+0.9848
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0042",
+"removed_frac": 0.19151875,
+"n_masks": 1,
+"scores": [
+0.9846
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0043",
+"removed_frac": 0.18285475,
+"n_masks": 1,
+"scores": [
+0.985
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0044",
+"removed_frac": 0.15905916666666667,
+"n_masks": 1,
+"scores": [
+0.9806
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0045",
+"removed_frac": 0.15406666666666666,
+"n_masks": 1,
+"scores": [
+0.9814
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0046",
+"removed_frac": 0.1500375,
+"n_masks": 1,
+"scores": [
+0.9811
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0047",
+"removed_frac": 0.14593241666666668,
+"n_masks": 1,
+"scores": [
+0.9813
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0048",
+"removed_frac": 0.1387205,
+"n_masks": 1,
+"scores": [
+0.9804
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0049",
+"removed_frac": 0.13425116666666667,
+"n_masks": 1,
+"scores": [
+0.9792
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0050",
+"removed_frac": 0.121985,
+"n_masks": 1,
+"scores": [
+0.9786
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0051",
+"removed_frac": 0.11736866666666666,
+"n_masks": 1,
+"scores": [
+0.9748
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0052",
+"removed_frac": 0.10979608333333334,
+"n_masks": 1,
+"scores": [
+0.9749
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0053",
+"removed_frac": 0.11139783333333333,
+"n_masks": 1,
+"scores": [
+0.9731
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0054",
+"removed_frac": 0.11714133333333333,
+"n_masks": 1,
+"scores": [
+0.9662
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0055",
+"removed_frac": 0.13186666666666666,
+"n_masks": 1,
+"scores": [
+0.9777
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0056",
+"removed_frac": 0.14138333333333333,
+"n_masks": 1,
+"scores": [
+0.9838
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0057",
+"removed_frac": 0.14909958333333334,
+"n_masks": 1,
+"scores": [
+0.9829
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0058",
+"removed_frac": 0.15456108333333332,
+"n_masks": 1,
+"scores": [
+0.9816
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0059",
+"removed_frac": 0.16077158333333333,
+"n_masks": 1,
+"scores": [
+0.9825
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0060",
+"removed_frac": 0.16845091666666667,
+"n_masks": 1,
+"scores": [
+0.982
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0061",
+"removed_frac": 0.17299266666666666,
+"n_masks": 1,
+"scores": [
+0.9801
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0062",
+"removed_frac": 0.19941091666666666,
+"n_masks": 1,
+"scores": [
+0.9849
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0063",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0064",
+"removed_frac": 0.19353016666666667,
+"n_masks": 1,
+"scores": [
+0.984
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0065",
+"removed_frac": 0.1977985,
+"n_masks": 1,
+"scores": [
+0.9861
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0066",
+"removed_frac": 0.19810808333333332,
+"n_masks": 1,
+"scores": [
+0.982
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0067",
+"removed_frac": 0.19422425,
+"n_masks": 1,
+"scores": [
+0.9827
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0068",
+"removed_frac": 0.19305683333333334,
+"n_masks": 1,
+"scores": [
+0.9827
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0069",
+"removed_frac": 0.1916525,
+"n_masks": 1,
+"scores": [
+0.9828
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0070",
+"removed_frac": 0.192622,
+"n_masks": 1,
+"scores": [
+0.9813
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0071",
+"removed_frac": 0.19310891666666666,
+"n_masks": 1,
+"scores": [
+0.9824
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0072",
+"removed_frac": 0.19756841666666666,
+"n_masks": 1,
+"scores": [
+0.9849
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0073",
+"removed_frac": 0.19185375,
+"n_masks": 1,
+"scores": [
+0.9856
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0074",
+"removed_frac": 0.18604633333333334,
+"n_masks": 1,
+"scores": [
+0.9848
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0075",
+"removed_frac": 0.178199,
+"n_masks": 1,
+"scores": [
+0.9844
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0076",
+"removed_frac": 0.17101466666666668,
+"n_masks": 1,
+"scores": [
+0.9846
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0077",
+"removed_frac": 0.16700183333333332,
+"n_masks": 1,
+"scores": [
+0.9839
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0078",
+"removed_frac": 0.16350366666666666,
+"n_masks": 1,
+"scores": [
+0.9789
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0079",
+"removed_frac": 0.15268891666666667,
+"n_masks": 1,
+"scores": [
+0.9771
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0080",
+"removed_frac": 0.15092966666666666,
+"n_masks": 1,
+"scores": [
+0.9753
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0081",
+"removed_frac": 0.14878266666666667,
+"n_masks": 1,
+"scores": [
+0.977
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0082",
+"removed_frac": 0.149561,
+"n_masks": 1,
+"scores": [
+0.9784
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0083",
+"removed_frac": 0.1561655,
+"n_masks": 1,
+"scores": [
+0.9782
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0084",
+"removed_frac": 0.16111958333333334,
+"n_masks": 1,
+"scores": [
+0.98
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0085",
+"removed_frac": 0.16463116666666666,
+"n_masks": 1,
+"scores": [
+0.9786
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0086",
+"removed_frac": 0.165194,
+"n_masks": 1,
+"scores": [
+0.9813
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0087",
+"removed_frac": 0.16314825,
+"n_masks": 1,
+"scores": [
+0.9785
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0088",
+"removed_frac": 0.16180608333333332,
+"n_masks": 1,
+"scores": [
+0.9791
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0089",
+"removed_frac": 0.16055125,
+"n_masks": 1,
+"scores": [
+0.9795
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0090",
+"removed_frac": 0.1615,
+"n_masks": 1,
+"scores": [
+0.9786
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0091",
+"removed_frac": 0.1699965,
+"n_masks": 1,
+"scores": [
+0.9808
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0092",
+"removed_frac": 0.17778808333333335,
+"n_masks": 1,
+"scores": [
+0.9823
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0093",
+"removed_frac": 0.18301766666666666,
+"n_masks": 1,
+"scores": [
+0.9826
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0094",
+"removed_frac": 0.1880305,
+"n_masks": 1,
+"scores": [
+0.983
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0095",
+"removed_frac": 0.19086083333333334,
+"n_masks": 1,
+"scores": [
+0.9826
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0096",
+"removed_frac": 0.1914665,
+"n_masks": 1,
+"scores": [
+0.9827
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0097",
+"removed_frac": 0.1928935,
+"n_masks": 1,
+"scores": [
+0.9819
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0098",
+"removed_frac": 0.1974415,
+"n_masks": 1,
+"scores": [
+0.9841
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0099",
+"removed_frac": 0.20006633333333335,
+"n_masks": 1,
+"scores": [
+0.9857
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0100",
+"removed_frac": 0.21166233333333334,
+"n_masks": 1,
+"scores": [
+0.9831
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0101",
+"removed_frac": 0.21994241666666667,
+"n_masks": 1,
+"scores": [
+0.9856
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0102",
+"removed_frac": 0.22752308333333332,
+"n_masks": 1,
+"scores": [
+0.9855
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0103",
+"removed_frac": 0.23620191666666668,
+"n_masks": 1,
+"scores": [
+0.9874
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0104",
+"removed_frac": 0.25191166666666664,
+"n_masks": 1,
+"scores": [
+0.9887
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0105",
+"removed_frac": 0.25691275,
+"n_masks": 1,
+"scores": [
+0.9907
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0106",
+"removed_frac": 0.25661825,
+"n_masks": 1,
+"scores": [
+0.9902
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0107",
+"removed_frac": 0.2892930833333333,
+"n_masks": 1,
+"scores": [
+0.9898
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0108",
+"removed_frac": 0.3020360833333333,
+"n_masks": 1,
+"scores": [
+0.9894
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0109",
+"removed_frac": 0.33784166666666665,
+"n_masks": 1,
+"scores": [
+0.9888
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0110",
+"removed_frac": 0.292386,
+"n_masks": 1,
+"scores": [
+0.9896
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0111",
+"removed_frac": 0.2528345833333333,
+"n_masks": 1,
+"scores": [
+0.9864
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0112",
+"removed_frac": 0.2619715833333333,
+"n_masks": 1,
+"scores": [
+0.9821
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0113",
+"removed_frac": 0.267959,
+"n_masks": 1,
+"scores": [
+0.9849
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0114",
+"removed_frac": 0.26794483333333335,
+"n_masks": 1,
+"scores": [
+0.9854
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0115",
+"removed_frac": 0.26710775,
+"n_masks": 1,
+"scores": [
+0.9847
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0116",
+"removed_frac": 0.26729508333333335,
+"n_masks": 1,
+"scores": [
+0.9857
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0117",
+"removed_frac": 0.2679045,
+"n_masks": 1,
+"scores": [
+0.9857
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0118",
+"removed_frac": 0.26775525,
+"n_masks": 1,
+"scores": [
+0.9859
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0119",
+"removed_frac": 0.26645375,
+"n_masks": 1,
+"scores": [
+0.9853
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0120",
+"removed_frac": 0.26445083333333336,
+"n_masks": 1,
+"scores": [
+0.987
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0121",
+"removed_frac": 0.2628028333333333,
+"n_masks": 1,
+"scores": [
+0.9859
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0122",
+"removed_frac": 0.25986933333333334,
+"n_masks": 1,
+"scores": [
+0.9876
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0123",
+"removed_frac": 0.2561231666666667,
+"n_masks": 1,
+"scores": [
+0.9857
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0124",
+"removed_frac": 0.251868,
+"n_masks": 1,
+"scores": [
+0.9861
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0125",
+"removed_frac": 0.248648,
+"n_masks": 1,
+"scores": [
+0.986
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0126",
+"removed_frac": 0.23552908333333333,
+"n_masks": 1,
+"scores": [
+0.984
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0127",
+"removed_frac": 0.22022883333333335,
+"n_masks": 1,
+"scores": [
+0.9816
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0128",
+"removed_frac": 0.22112583333333333,
+"n_masks": 1,
+"scores": [
+0.9821
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0129",
+"removed_frac": 0.22309366666666666,
+"n_masks": 1,
+"scores": [
+0.9816
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0130",
+"removed_frac": 0.22562058333333335,
+"n_masks": 1,
+"scores": [
+0.983
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0131",
+"removed_frac": 0.22856533333333334,
+"n_masks": 1,
+"scores": [
+0.983
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0132",
+"removed_frac": 0.23417341666666666,
+"n_masks": 1,
+"scores": [
+0.9842
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0133",
+"removed_frac": 0.24107358333333334,
+"n_masks": 1,
+"scores": [
+0.9844
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0134",
+"removed_frac": 0.24344975,
+"n_masks": 1,
+"scores": [
+0.985
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0135",
+"removed_frac": 0.24591525,
+"n_masks": 1,
+"scores": [
+0.9852
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0136",
+"removed_frac": 0.2506836666666667,
+"n_masks": 1,
+"scores": [
+0.9855
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0137",
+"removed_frac": 0.25430166666666665,
+"n_masks": 1,
+"scores": [
+0.9851
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0138",
+"removed_frac": 0.25648483333333333,
+"n_masks": 1,
+"scores": [
+0.9841
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0139",
+"removed_frac": 0.25911508333333333,
+"n_masks": 1,
+"scores": [
+0.9856
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0140",
+"removed_frac": 0.29149441666666664,
+"n_masks": 1,
+"scores": [
+0.9857
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0141",
+"removed_frac": 0.28788416666666666,
+"n_masks": 1,
+"scores": [
+0.9856
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0142",
+"removed_frac": 0.28676783333333333,
+"n_masks": 1,
+"scores": [
+0.9835
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0143",
+"removed_frac": 0.2857205,
+"n_masks": 1,
+"scores": [
+0.9823
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0144",
+"removed_frac": 0.28472033333333335,
+"n_masks": 1,
+"scores": [
+0.9844
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0145",
+"removed_frac": 0.28444716666666664,
+"n_masks": 1,
+"scores": [
+0.9849
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0146",
+"removed_frac": 0.2843851666666667,
+"n_masks": 1,
+"scores": [
+0.9847
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0147",
+"removed_frac": 0.2840619166666667,
+"n_masks": 1,
+"scores": [
+0.9846
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0148",
+"removed_frac": 0.28415958333333335,
+"n_masks": 1,
+"scores": [
+0.9862
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0149",
+"removed_frac": 0.2847865,
+"n_masks": 1,
+"scores": [
+0.9852
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0150",
+"removed_frac": 0.28538541666666667,
+"n_masks": 1,
+"scores": [
+0.9853
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0151",
+"removed_frac": 0.28702041666666667,
+"n_masks": 1,
+"scores": [
+0.9851
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0152",
+"removed_frac": 0.2886898333333333,
+"n_masks": 1,
+"scores": [
+0.9861
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0153",
+"removed_frac": 0.29109833333333335,
+"n_masks": 1,
+"scores": [
+0.9851
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0154",
+"removed_frac": 0.29265675,
+"n_masks": 1,
+"scores": [
+0.9852
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0155",
+"removed_frac": 0.29357,
+"n_masks": 1,
+"scores": [
+0.9838
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0156",
+"removed_frac": 0.2989945,
+"n_masks": 1,
+"scores": [
+0.9861
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0157",
+"removed_frac": 0.30423591666666666,
+"n_masks": 1,
+"scores": [
+0.9859
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0158",
+"removed_frac": 0.30560041666666665,
+"n_masks": 1,
+"scores": [
+0.9844
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0159",
+"removed_frac": 0.3079326666666667,
+"n_masks": 1,
+"scores": [
+0.9854
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0160",
+"removed_frac": 0.30881308333333335,
+"n_masks": 1,
+"scores": [
+0.9837
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0161",
+"removed_frac": 0.30911725,
+"n_masks": 1,
+"scores": [
+0.9845
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0162",
+"removed_frac": 0.3079711666666667,
+"n_masks": 1,
+"scores": [
+0.9836
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0163",
+"removed_frac": 0.30902983333333334,
+"n_masks": 1,
+"scores": [
+0.9841
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0164",
+"removed_frac": 0.3089855833333333,
+"n_masks": 1,
+"scores": [
+0.9861
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0165",
+"removed_frac": 0.3105515,
+"n_masks": 1,
+"scores": [
+0.9845
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0166",
+"removed_frac": 0.3119120833333333,
+"n_masks": 1,
+"scores": [
+0.9854
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0167",
+"removed_frac": 0.31117408333333335,
+"n_masks": 1,
+"scores": [
+0.9852
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0168",
+"removed_frac": 0.30918633333333334,
+"n_masks": 1,
+"scores": [
+0.9851
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0169",
+"removed_frac": 0.30833258333333335,
+"n_masks": 1,
+"scores": [
+0.9861
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0170",
+"removed_frac": 0.30825258333333333,
+"n_masks": 1,
+"scores": [
+0.986
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0171",
+"removed_frac": 0.310016,
+"n_masks": 1,
+"scores": [
+0.9856
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0172",
+"removed_frac": 0.308687,
+"n_masks": 1,
+"scores": [
+0.9862
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0173",
+"removed_frac": 0.30922283333333334,
+"n_masks": 1,
+"scores": [
+0.9819
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0174",
+"removed_frac": 0.31194358333333333,
+"n_masks": 1,
+"scores": [
+0.9807
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0175",
+"removed_frac": 0.3153995,
+"n_masks": 1,
+"scores": [
+0.9853
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0176",
+"removed_frac": 0.31736525,
+"n_masks": 1,
+"scores": [
+0.9862
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0177",
+"removed_frac": 0.32641308333333335,
+"n_masks": 1,
+"scores": [
+0.9859
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0178",
+"removed_frac": 0.32920741666666664,
+"n_masks": 1,
+"scores": [
+0.985
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0179",
+"removed_frac": 0.3991815,
+"n_masks": 1,
+"scores": [
+0.9883
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0180",
+"removed_frac": 0.3978485,
+"n_masks": 1,
+"scores": [
+0.9869
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0181",
+"removed_frac": 0.394742,
+"n_masks": 1,
+"scores": [
+0.9873
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0182",
+"removed_frac": 0.3903086666666667,
+"n_masks": 1,
+"scores": [
+0.9864
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0183",
+"removed_frac": 0.40973641666666666,
+"n_masks": 1,
+"scores": [
+0.9875
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0184",
+"removed_frac": 0.40334516666666664,
+"n_masks": 1,
+"scores": [
+0.9898
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0185",
+"removed_frac": 0.39765683333333335,
+"n_masks": 1,
+"scores": [
+0.9878
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0186",
+"removed_frac": 0.39165358333333333,
+"n_masks": 1,
+"scores": [
+0.9866
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0187",
+"removed_frac": 0.38742533333333334,
+"n_masks": 1,
+"scores": [
+0.9844
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0188",
+"removed_frac": 0.3850038333333333,
+"n_masks": 1,
+"scores": [
+0.9892
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0189",
+"removed_frac": 0.37194925,
+"n_masks": 1,
+"scores": [
+0.9874
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0190",
+"removed_frac": 0.36775841666666664,
+"n_masks": 1,
+"scores": [
+0.9873
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0191",
+"removed_frac": 0.364773,
+"n_masks": 1,
+"scores": [
+0.9855
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0192",
+"removed_frac": 0.36091866666666667,
+"n_masks": 1,
+"scores": [
+0.9868
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0193",
+"removed_frac": 0.35575525,
+"n_masks": 1,
+"scores": [
+0.9857
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0194",
+"removed_frac": 0.32743633333333333,
+"n_masks": 1,
+"scores": [
+0.9853
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0195",
+"removed_frac": 0.3251213333333333,
+"n_masks": 1,
+"scores": [
+0.9851
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0196",
+"removed_frac": 0.3219201666666667,
+"n_masks": 1,
+"scores": [
+0.985
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0197",
+"removed_frac": 0.3105240833333333,
+"n_masks": 1,
+"scores": [
+0.9822
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0198",
+"removed_frac": 0.3084065833333333,
+"n_masks": 1,
+"scores": [
+0.9814
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0199",
+"removed_frac": 0.30153283333333336,
+"n_masks": 1,
+"scores": [
+0.9842
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0200",
+"removed_frac": 0.30363983333333333,
+"n_masks": 1,
+"scores": [
+0.9836
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0201",
+"removed_frac": 0.3061480833333333,
+"n_masks": 1,
+"scores": [
+0.9841
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0202",
+"removed_frac": 0.31118191666666667,
+"n_masks": 1,
+"scores": [
+0.9857
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0203",
+"removed_frac": 0.3135505,
+"n_masks": 1,
+"scores": [
+0.9852
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0204",
+"removed_frac": 0.31599858333333336,
+"n_masks": 1,
+"scores": [
+0.9855
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0205",
+"removed_frac": 0.319617,
+"n_masks": 1,
+"scores": [
+0.986
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0206",
+"removed_frac": 0.32253383333333335,
+"n_masks": 1,
+"scores": [
+0.9868
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0207",
+"removed_frac": 0.36313216666666664,
+"n_masks": 1,
+"scores": [
+0.9906
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0208",
+"removed_frac": 0.3725773333333333,
+"n_masks": 1,
+"scores": [
+0.9891
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0209",
+"removed_frac": 0.37304475,
+"n_masks": 1,
+"scores": [
+0.9896
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0210",
+"removed_frac": 0.37287916666666665,
+"n_masks": 1,
+"scores": [
+0.9887
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0211",
+"removed_frac": 0.37252141666666666,
+"n_masks": 1,
+"scores": [
+0.989
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0212",
+"removed_frac": 0.3963061666666667,
+"n_masks": 1,
+"scores": [
+0.9882
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0213",
+"removed_frac": 0.3970708333333333,
+"n_masks": 1,
+"scores": [
+0.9886
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0214",
+"removed_frac": 0.39779625,
+"n_masks": 1,
+"scores": [
+0.9881
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0215",
+"removed_frac": 0.39701641666666665,
+"n_masks": 1,
+"scores": [
+0.9874
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0216",
+"removed_frac": 0.39720608333333335,
+"n_masks": 1,
+"scores": [
+0.9877
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0217",
+"removed_frac": 0.39768766666666666,
+"n_masks": 1,
+"scores": [
+0.9876
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0218",
+"removed_frac": 0.39714925,
+"n_masks": 1,
+"scores": [
+0.9871
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0219",
+"removed_frac": 0.39706375,
+"n_masks": 1,
+"scores": [
+0.9861
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0220",
+"removed_frac": 0.3951346666666667,
+"n_masks": 1,
+"scores": [
+0.9867
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0221",
+"removed_frac": 0.39712366666666665,
+"n_masks": 1,
+"scores": [
+0.9868
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0222",
+"removed_frac": 0.3965458333333333,
+"n_masks": 1,
+"scores": [
+0.9868
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0223",
+"removed_frac": 0.39688408333333336,
+"n_masks": 1,
+"scores": [
+0.985
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0224",
+"removed_frac": 0.39457458333333334,
+"n_masks": 1,
+"scores": [
+0.9863
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0225",
+"removed_frac": 0.39827266666666666,
+"n_masks": 1,
+"scores": [
+0.988
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0226",
+"removed_frac": 0.39981441666666667,
+"n_masks": 1,
+"scores": [
+0.9874
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0227",
+"removed_frac": 0.40041333333333334,
+"n_masks": 1,
+"scores": [
+0.9859
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0228",
+"removed_frac": 0.4427913333333333,
+"n_masks": 1,
+"scores": [
+0.9881
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0229",
+"removed_frac": 0.4743799166666667,
+"n_masks": 1,
+"scores": [
+0.9903
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0230",
+"removed_frac": 0.47571825,
+"n_masks": 1,
+"scores": [
+0.9893
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0231",
+"removed_frac": 0.47775508333333333,
+"n_masks": 1,
+"scores": [
+0.9893
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0232",
+"removed_frac": 0.47476425,
+"n_masks": 1,
+"scores": [
+0.9893
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0233",
+"removed_frac": 0.47451933333333335,
+"n_masks": 1,
+"scores": [
+0.9898
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0234",
+"removed_frac": 0.47627966666666666,
+"n_masks": 1,
+"scores": [
+0.99
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0235",
+"removed_frac": 0.375261,
+"n_masks": 1,
+"scores": [
+0.9883
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0236",
+"removed_frac": 0.3142143333333333,
+"n_masks": 1,
+"scores": [
+0.9899
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0237",
+"removed_frac": 0.3394095,
+"n_masks": 1,
+"scores": [
+0.9881
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0238",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0239",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0240",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0241",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0242",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0243",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0244",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0245",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0246",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0247",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0248",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0249",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0250",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0251",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0252",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0253",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0254",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0255",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0256",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0257",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0258",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0259",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0260",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0261",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0262",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0263",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0264",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0265",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0266",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0267",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0268",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0269",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0270",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0271",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0272",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0273",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0274",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0275",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0276",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0277",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0278",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0279",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0280",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0281",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0282",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0283",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0284",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0285",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0286",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0287",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0288",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0289",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0290",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0291",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0292",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0293",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0294",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0295",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0296",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0297",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0298",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0299",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0300",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0301",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0302",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0303",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0304",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0305",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0306",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0307",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0308",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0309",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0310",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0311",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0312",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0313",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0314",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0315",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0316",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0317",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0318",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0319",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0320",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0321",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0322",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0323",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0324",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0325",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0326",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0327",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0328",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0329",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0330",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0331",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0332",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0333",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0334",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0335",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0336",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0337",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0338",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0339",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0340",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0341",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0342",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0343",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0344",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0345",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0346",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0347",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0348",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0349",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0350",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0351",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0352",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0353",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0354",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0355",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0356",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0357",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0358",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0359",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0360",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0361",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0362",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0363",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0364",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0365",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0366",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0367",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0368",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0369",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0370",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0371",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0372",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0373",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0374",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0375",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0376",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0377",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0378",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0379",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0380",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0381",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0382",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0383",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0384",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0385",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0386",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0387",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0388",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0389",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0390",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0391",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0392",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0393",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0394",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0395",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0396",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0397",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0398",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0399",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0400",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0401",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0402",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0403",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0404",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0405",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0406",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0407",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0408",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0409",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0410",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0411",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0412",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0413",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0414",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0415",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0416",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0417",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0418",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0419",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0420",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0421",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0422",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0423",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0424",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0425",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0426",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0427",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0428",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0429",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0430",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0431",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0432",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0433",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0434",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0435",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0436",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0437",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0438",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0439",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0440",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0441",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0442",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0443",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0444",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0445",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0446",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0447",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0448",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0449",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0450",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0451",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0452",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0453",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0454",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0455",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0456",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0457",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0458",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0459",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0460",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0461",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0462",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0463",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0464",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0465",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0466",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0467",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0468",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0469",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0470",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0471",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0472",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0473",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0474",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0475",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0476",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0477",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0478",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0479",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0480",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0481",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0482",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0483",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0484",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0485",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0486",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0487",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0488",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0489",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0490",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0491",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0492",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0493",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0494",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0495",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0496",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0497",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0498",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0499",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0500",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0501",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0502",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0503",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0504",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0505",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0506",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0507",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0508",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0509",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0510",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0511",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0512",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0513",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0514",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0515",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0516",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0517",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0518",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0519",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0520",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0521",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0522",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0523",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0524",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0525",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0526",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0527",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0528",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0529",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0530",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0531",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0532",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0533",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0534",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0535",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0536",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0537",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0538",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0539",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0540",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0541",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0542",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0543",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0544",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0545",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0546",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0547",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0548",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0549",
+"removed_frac": 0.0075925,
+"n_masks": 1,
+"scores": [
+0.9166
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0550",
+"removed_frac": 0.06095258333333333,
+"n_masks": 1,
+"scores": [
+0.965
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0551",
+"removed_frac": 0.13867416666666665,
+"n_masks": 1,
+"scores": [
+0.9747
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0552",
+"removed_frac": 0.19739208333333333,
+"n_masks": 1,
+"scores": [
+0.9798
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0553",
+"removed_frac": 0.18392658333333334,
+"n_masks": 1,
+"scores": [
+0.9811
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0554",
+"removed_frac": 0.16786375,
+"n_masks": 1,
+"scores": [
+0.9807
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0555",
+"removed_frac": 0.18292758333333334,
+"n_masks": 1,
+"scores": [
+0.978
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0556",
+"removed_frac": 0.187978,
+"n_masks": 1,
+"scores": [
+0.976
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0557",
+"removed_frac": 0.14683916666666666,
+"n_masks": 1,
+"scores": [
+0.9759
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0558",
+"removed_frac": 0.1003535,
+"n_masks": 1,
+"scores": [
+0.9442
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0559",
+"removed_frac": 0.15056183333333334,
+"n_masks": 1,
+"scores": [
+0.9734
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0560",
+"removed_frac": 0.17147858333333332,
+"n_masks": 1,
+"scores": [
+0.977
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0561",
+"removed_frac": 0.1666755,
+"n_masks": 1,
+"scores": [
+0.9773
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0562",
+"removed_frac": 0.16739033333333334,
+"n_masks": 1,
+"scores": [
+0.9757
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0563",
+"removed_frac": 0.16817841666666666,
+"n_masks": 1,
+"scores": [
+0.9758
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0564",
+"removed_frac": 0.22500291666666666,
+"n_masks": 1,
+"scores": [
+0.981
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0565",
+"removed_frac": 0.22661591666666667,
+"n_masks": 1,
+"scores": [
+0.9804
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0566",
+"removed_frac": 0.22653016666666667,
+"n_masks": 1,
+"scores": [
+0.9809
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0567",
+"removed_frac": 0.22490875,
+"n_masks": 1,
+"scores": [
+0.9811
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0568",
+"removed_frac": 0.22266033333333332,
+"n_masks": 1,
+"scores": [
+0.981
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0569",
+"removed_frac": 0.22124583333333334,
+"n_masks": 1,
+"scores": [
+0.9804
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0570",
+"removed_frac": 0.152845,
+"n_masks": 1,
+"scores": [
+0.9732
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0571",
+"removed_frac": 0.09679133333333333,
+"n_masks": 1,
+"scores": [
+0.9411
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0572",
+"removed_frac": 0.021945583333333334,
+"n_masks": 1,
+"scores": [
+0.934
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0573",
+"removed_frac": 0.024188083333333332,
+"n_masks": 1,
+"scores": [
+0.9524
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0574",
+"removed_frac": 0.07597266666666666,
+"n_masks": 1,
+"scores": [
+0.9666
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0575",
+"removed_frac": 0.4244906666666667,
+"n_masks": 1,
+"scores": [
+0.9875
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0576",
+"removed_frac": 0.45488475,
+"n_masks": 1,
+"scores": [
+0.9891
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0578",
+"removed_frac": 0.46403925,
+"n_masks": 1,
+"scores": [
+0.9906
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0579",
+"removed_frac": 0.4552595,
+"n_masks": 1,
+"scores": [
+0.9898
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0580",
+"removed_frac": 0.46726833333333334,
+"n_masks": 1,
+"scores": [
+0.9899
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0581",
+"removed_frac": 0.47582175,
+"n_masks": 1,
+"scores": [
+0.9873
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0582",
+"removed_frac": 0.3699116666666667,
+"n_masks": 1,
+"scores": [
+0.99
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0583",
+"removed_frac": 0.34387633333333334,
+"n_masks": 1,
+"scores": [
+0.9893
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0584",
+"removed_frac": 0.3842488333333333,
+"n_masks": 1,
+"scores": [
+0.9827
+],
+"note": "ok"
+},
+{
+"stem": "DJI_0585",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+},
+{
+"stem": "DJI_0586",
+"removed_frac": 0.0,
+"n_masks": 0,
+"scores": [],
+"note": "empty: SAM 3 returned no masks for this prompt"
+}
+]

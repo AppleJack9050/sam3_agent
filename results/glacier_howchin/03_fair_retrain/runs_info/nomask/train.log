@@ -1,0 +1,22 @@
+2026-09-13 18:58:04,666 [INFO] torch._native.dsl_registry: Successfully registered DSL: cutedsl
+2026-09-13 18:58:04,666 [INFO] torch._native.dsl_registry: Successfully registered DSL: triton
+2026-09-13 18:58:04,880 [INFO] root: GPU: NVIDIA GeForce RTX 5090  sm_120
+2026-09-13 18:58:07,074 [INFO] gsplat_eval.dataset: Downsampling by 4x: images and intrinsics rescaled.
+2026-09-13 18:58:07,349 [INFO] gsplat_eval.dataset: Loaded scene: 583 images (train=510, test=73), 525964 sparse points
+2026-09-13 18:58:15,581 [INFO] gsplat_eval.trainer: Scene scale = 7.587, init Gaussians = 525964
+2026-09-13 19:02:13,160 [INFO] gsplat_eval.io_utils: Wrote 5141797 Gaussians → /mnt/windows/Dataset/2016-11-28_Howchin-AlphLake_Imagery-Files.beh/retrain_fair/runs/nomask/checkpoints/point_cloud_7000.ply
+2026-09-13 19:24:32,666 [INFO] gsplat_eval.io_utils: Wrote 10433981 Gaussians → /mnt/windows/Dataset/2016-11-28_Howchin-AlphLake_Imagery-Files.beh/retrain_fair/runs/nomask/checkpoints/point_cloud_30000.ply
+2026-09-13 19:24:32,758 [INFO] gsplat_eval.trainer: Training complete in 1576.6s (10433981 Gaussians)
+2026-09-13 19:24:51,696 [INFO] gsplat_eval.render: Wrote 73 rendered test views → /mnt/windows/Dataset/2016-11-28_Howchin-AlphLake_Imagery-Files.beh/retrain_fair/runs/nomask/renders/test
+2026-09-13 19:24:55,517 [INFO] root: ============================================================
+2026-09-13 19:24:55,517 [INFO] root: Final metrics:
+2026-09-13 19:24:55,517 [INFO] root:   psnr                 22.076541900634766
+2026-09-13 19:24:55,517 [INFO] root:   ssim                 0.7658457159996033
+2026-09-13 19:24:55,517 [INFO] root:   lpips                0.3149617314338684
+2026-09-13 19:24:55,517 [INFO] root:   rmse                 0.06979788030313477
+2026-09-13 19:24:55,517 [INFO] root:   num_test_images      73
+2026-09-13 19:24:55,517 [INFO] root:   num_gaussians        10433981
+2026-09-13 19:24:55,517 [INFO] root:   ply_size_mb          2467.7551469802856
+2026-09-13 19:24:55,518 [INFO] root:   train_seconds        1576.5844750404358
+2026-09-13 19:24:55,518 [INFO] root:   iters                30000
+2026-09-13 19:24:55,518 [INFO] root: ============================================================

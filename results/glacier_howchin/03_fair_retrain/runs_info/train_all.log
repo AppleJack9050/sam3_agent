@@ -1,0 +1,7 @@
+[train_all] === agent start 2026-09-13 18:02:26 ===
+[train_all] === agent exit=0 2026-09-13 18:30:15 ===
+[train_all] === sam3_noagent start 2026-09-13 18:30:15 ===
+[train_all] === sam3_noagent exit=0 2026-09-13 18:58:04 ===
+[train_all] === nomask start 2026-09-13 18:58:04 ===
+[train_all] === nomask exit=0 2026-09-13 19:24:56 ===
+[train_all] ALL DONE 2026-09-13 19:24:56
